@@ -18,7 +18,7 @@ Perfect data integrity is a challenge in any environment, and Call of Duty is no
 
 ## Questions?
 
-See [Issues](https://github.com/Activision/cwl-data/issues) 
+See [Issues](https://github.com/Activision/cwl-data/issues) if you have questions.
 
 
 ## Contributing
@@ -28,7 +28,7 @@ Releasing the data is just the first step.  What we do with it is up to us.  See
 
 ## License
 
-All files are licensed under the BSD 3-Clause License as follows:
+All data and code files are licensed under the BSD 3-Clause License as follows:
 
 > Copyright (c) 2017, Activision Publishing, Inc.
 > All rights reserved.
