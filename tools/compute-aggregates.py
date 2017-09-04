@@ -26,6 +26,8 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+"""Compute player and team aggregate stats for a tournament.  Outputs aggregates as csv files."""
+
 from helper import load_csv, save_csv, sort_n_rank
 
 def aggregate_players(rows):

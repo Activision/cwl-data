@@ -26,6 +26,8 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+"""Compute total stats and various single-game high score records."""
+
 from helper import load_csv, sort_n_rank
 
 
@@ -39,7 +41,7 @@ def find_totals(rows):
         'bomb plants': 0, 'bomb defuses': 0,
         'uplink dunks': 0, 'uplink throws': 0, 'uplink points': 0
     }
-    # sum for all games
+    # sum for all games in the tournament
     for row in rows:
         for k in totals:
             totals[k] += int(row[k])
@@ -52,7 +54,7 @@ def find_records_per_mode_n_map(rows):
     # the stats for each result (must be superset of stats below)
     stats = ['player', 'team', 'series id', 'kills', 'deaths', 'k/d', 'hill time (s)', 'snd firstbloods', 'uplink points']
 
-    # for each stat, find all results
+    # for each stat, find all results in the tournament
     records = {}
     for stat in [
         {'stat': 'kills'},
