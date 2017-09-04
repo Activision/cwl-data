@@ -1,30 +1,37 @@
-import string
-import csv
+# Copyright (c) 2017, Activision Publishing, Inc.
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without modification,
+# are permitted provided that the following conditions are met:
+#
+# 1. Redistributions of source code must retain the above copyright notice, this
+# list of conditions and the following disclaimer.
+#
+# 2. Redistributions in binary form must reproduce the above copyright notice,
+# this list of conditions and the following disclaimer in the documentation
+# and/or other materials provided with the distribution.
+#
+# 3. Neither the name of the copyright holder nor the names of its contributors
+# may be used to endorse or promote products derived from this software without
+# specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+# ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+# ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+# (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+# ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
-def load_csv(filename):
-    """Load the tournament data from csv."""
-    rows = []
-    with open(filename) as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            rows.append(row)
-    return rows
-
-
-def find_modes_n_maps(rows):
-    """Find all the modes and maps played in the tournament."""
-    modes_n_maps = {}
-    for row in rows:
-        if row['mode'] not in modes_n_maps:
-            modes_n_maps[row['mode']] = []
-        if row['map'] not in modes_n_maps[row['mode']]:
-            modes_n_maps[row['mode']].append(row['map'])
-    return modes_n_maps
+from helper import load_csv, sort_n_rank
 
 
 def find_totals(rows):
-    """Compute various stat totals."""
+    """Compute stat totals by summing over the entire tournament."""
+    # stats to sum
     totals = {
         'kills': 0, 'deaths': 0, 'assists': 0,
         'hits': 0, 'shots': 0,
@@ -32,6 +39,7 @@ def find_totals(rows):
         'bomb plants': 0, 'bomb defuses': 0,
         'uplink dunks': 0, 'uplink throws': 0, 'uplink points': 0
     }
+    # sum for all games
     for row in rows:
         for k in totals:
             totals[k] += int(row[k])
@@ -39,23 +47,28 @@ def find_totals(rows):
     return totals
 
 
-def find_records_per_mode_n_map(rows, modes_n_maps):
+def find_records_per_mode_n_map(rows):
+    """Search the entire tournament for single-game high scores across various stats."""
+    # the stats for each result (must be superset of stats below)
     stats = ['player', 'team', 'series id', 'kills', 'deaths', 'k/d', 'hill time (s)', 'snd firstbloods', 'uplink points']
+
+    # for each stat, find all results
     records = {}
-    for row in rows:
-        for stat in [
-            {'stat': 'kills'},
-            {'stat': 'k/d'},
-            {'stat': 'hill time (s)', 'mode': 'Hardpoint'},
-            {'stat': 'snd firstbloods', 'mode': 'Search & Destroy'},
-            {'stat': 'uplink points', 'mode': 'Uplink'}
-        ]:
+    for stat in [
+        {'stat': 'kills'},
+        {'stat': 'k/d'},
+        {'stat': 'hill time (s)', 'mode': 'Hardpoint'},
+        {'stat': 'snd firstbloods', 'mode': 'Search & Destroy'},
+        {'stat': 'uplink points', 'mode': 'Uplink'}
+    ]:
+        for row in rows:
             k = (stat['stat'], row['mode'], row['map'])
             if 'mode' not in stat or stat['mode'] == row['mode']:
                 if k not in records:
                     records[k] = []
                 records[k].append({x:y for x,y in row.items() if x in stats})
 
+    # for each stat, sort the results
     out = []
     for k in records:
         stat, mode, map_ = k
@@ -70,29 +83,12 @@ def find_records_per_mode_n_map(rows, modes_n_maps):
     return sorted(out, key=lambda x: x['title'])
 
 
-def sort_n_rank(rows, stat, highest_is_first=True):
-    """Helper to sort and rank the rows for the given stat."""
-    # sort rows
-    rows = sorted(rows, key=lambda x: (float(x[stat]), float(x['k/d']), x['player']), reverse=highest_is_first)
-
-    # add rank
-    val, rank = 0, 0
-    for i, row in enumerate(rows):
-         if i == 0 or val != row[stat]:
-             row['rank'] = rank = i+1
-             val = row[stat]
-         else:
-             row['rank'] = rank
-    return rows
-
-
 if __name__ == '__main__':
     print('Compute Factoids')
 
     rows = load_csv('../data/data-2017-08-13-champs.csv')
-    modes_n_maps = find_modes_n_maps(rows)
     totals = find_totals(rows)
-    records = find_records_per_mode_n_map(rows, modes_n_maps)
+    records = find_records_per_mode_n_map(rows)
     print('  loaded {} rows, {:.0f} games'.format(len(rows), len(rows)/8))
 
     print('\nTotals:')

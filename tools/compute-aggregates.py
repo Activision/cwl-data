@@ -1,23 +1,32 @@
-import csv
+# Copyright (c) 2017, Activision Publishing, Inc.
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without modification,
+# are permitted provided that the following conditions are met:
+#
+# 1. Redistributions of source code must retain the above copyright notice, this
+# list of conditions and the following disclaimer.
+#
+# 2. Redistributions in binary form must reproduce the above copyright notice,
+# this list of conditions and the following disclaimer in the documentation
+# and/or other materials provided with the distribution.
+#
+# 3. Neither the name of the copyright holder nor the names of its contributors
+# may be used to endorse or promote products derived from this software without
+# specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+# ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+# ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+# (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+# ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
-def load_csv(filename):
-    """Load the tournament data from csv."""
-    rows = []
-    with open(filename) as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            rows.append(row)
-    return rows
-
-
-def save_csv(filename, rows, header):
-    """Write data as csv."""
-    with open(filename, 'w') as f:
-        writer = csv.DictWriter(f, header, restval='?', extrasaction='ignore', quoting=csv.QUOTE_ALL)
-        writer.writeheader()
-        writer.writerows(rows)
-
+from helper import load_csv, save_csv, sort_n_rank
 
 def aggregate_players(rows):
     """Compute aggregate stats for each player for the tournament."""
@@ -69,29 +78,13 @@ def aggregate_teams(players):
     return sorted(teams.values(), key=lambda x: x['team'].lower())
 
 
-def sort_n_rank(rows, stat, highest_is_first=True):
-    """Helper to sort and rank the rows for the given stat."""
-    # sort rows
-    rows = sorted(rows, key=lambda x: float(x[stat]), reverse=highest_is_first)
-
-    # add rank
-    val, rank = 0, 0
-    for i, row in enumerate(rows):
-         if i == 0 or val != row[stat]:
-             row['rank'] = rank = i+1
-             val = row[stat]
-         else:
-             row['rank'] = rank
-    return rows
-
-
 if __name__ == '__main__':
     print('Compute Aggregates')
 
     rows = load_csv('../data/data-2017-08-13-champs.csv')
     players = aggregate_players(rows)
     teams = aggregate_teams(players)
-    print('  loaded {} rows, {} players, {} teams'.format(len(rows), len(players), len(teams)))
+    print('  loaded {} rows, {:.0f} games, {} players, {} teams'.format(len(rows), len(rows)/8, len(players), len(teams)))
 
     print('\nTop 5 Players by K/D:')
     for p in sort_n_rank(players, 'k/d')[:5]:
