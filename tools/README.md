@@ -12,13 +12,13 @@ Run it (requires Python >= 3.5):
 
 ```
 > cd tools
-> python compute-aggregates.py
+> python compute-factoids.py
 ```
 
 Output:
 
 ```
-Compute Factoids
+Factoids:
   loaded 2384 rows, 298 games
 
 Totals:
@@ -48,7 +48,7 @@ Run it (requires Python >= 3.5):
 Output:
 
 ```
-Compute Aggregates
+Aggregates:
   loaded 2384 rows, 298 games, 128 players, 32 teams
 
 Top 3 Players by K/D:

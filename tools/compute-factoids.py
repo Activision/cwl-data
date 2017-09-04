@@ -86,7 +86,7 @@ def find_records_per_mode_n_map(rows):
 
 
 if __name__ == '__main__':
-    print('Compute Factoids')
+    print('Factoids:')
 
     rows = load_csv('../data/data-2017-08-13-champs.csv')
     totals = find_totals(rows)
@@ -95,11 +95,11 @@ if __name__ == '__main__':
 
     print('\nTotals:')
     for stat, total in totals.items():
-        print('{} = {}'.format(stat, total))
+        print('  {} = {}'.format(stat, total))
 
     print('\nRecords:')
     for record in records:
-        print('  {} : {}'.format(
+        print('  {}\n    {}'.format(
             record['title'],
             ', '.join(['{}. {} {}'.format(p['rank'], p['player'], p[record['stat']]) for p in record['players'][:3]])
         ))

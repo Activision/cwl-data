@@ -81,7 +81,7 @@ def aggregate_teams(players):
 
 
 if __name__ == '__main__':
-    print('Compute Aggregates')
+    print('Aggregates:')
 
     rows = load_csv('../data/data-2017-08-13-champs.csv')
     players = aggregate_players(rows)
