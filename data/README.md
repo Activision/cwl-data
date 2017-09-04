@@ -1,6 +1,8 @@
-# CWL Champs 2017
+# The Data
 
-The 2017 Call of Duty World League Championships were played in Orlando, FL from Aug 9 - Aug 13.
+Call of Duty World League data:
+
+* [data-2017-08-13-champs.csv](data-2017-08-13-champs.csv) - 2017 CWL Championships played in Orlando, FL from Aug 9 - Aug 13
 
 ## Definitions
 
@@ -11,9 +13,11 @@ Some definitions:
  * Aggregate Stats - basic stats summed over a certain period of time (series, tournament, season) then normalized per game to allow player vs player comparisons, such as `season k/d`, `kills per game`, `plants per round`, `points per game`, ...
  * Advanced Stats (aka sabermetrics) - complex derived stats that *best* describe player performance and/or enable *better* player vs player comparisons, such as `QBR` from american football, `WAR` and `OPS+` from baseball, `PER` in basketball, ...
 
-For Call of Duty, every class of stats is under active investigation.
+For Call of Duty, everything from basic stats to advanced stats is under active investigation.  What stats work best when?  What stats are best when comparing players, when comparing teams?  What stats best predict future performance?
 
 ## The Stats
+
+The basic and derived stats found in the data files (aka the columns):
 
  * `match id` - unique game id
  * `series id` - unique series id
@@ -72,4 +76,5 @@ For Call of Duty, every class of stats is under active investigation.
 
 ## Missing Data
 
-297 of 298 games have complete data, but a hardware failure during a game between Envyus and Ghost Gaming (Winner's Quarterfinals - Map 2 - Search & Destory on Retaliation) resulted in partial data loss.  The failure occured with Envyus leading 4-0, resulting in data from the first 4 rounds to be lost.  Video replay allowed for manual recovery of all basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...), but some more complex stats were unrecoverable.
+ * 2017 CWL Championships
+    - 297 of 298 games have complete data, but a hardware failure during a game between Envyus and Ghost Gaming (Winner's Quarterfinals - Map 2 - Search & Destory on Retaliation) resulted in partial data loss.  The failure occured with Envyus leading 4-0, resulting in data from the first 4 rounds to be lost.  Video replay allowed for manual recovery of all basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...), but some more complex stats were unrecoverable.
