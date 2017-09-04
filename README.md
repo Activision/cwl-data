@@ -6,24 +6,19 @@ This is the public release of data from the Call of Duty World League.  The firs
 
 The first data release is simply per-player per-game stats for every game in the tournament.
 
-Data from the following tournaments is available:
+Data from the following tournaments is available (see [Data](data)):
 
 * 2017 Champs
-
-
-## Missing Data
-
-Perfect data integrity is a challenge in any environment, and Call of Duty is no different.  Anything from a power outage to a hardware failure to just plain bad luck can cause data to be lost.
-
-
-## Questions?
-
-See [Issues](https://github.com/Activision/cwl-data/issues) if you have questions.
 
 
 ## Contributing
 
 Releasing the data is just the first step.  What we do with it is up to us.  See [Contributing](CONTRIBUTING.md) if you'd like to help.
+
+
+## Questions?
+
+See [Issues](https://github.com/Activision/cwl-data/issues) if you have questions.
 
 
 ## License

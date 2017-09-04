@@ -64,4 +64,4 @@ Top 3 Teams by K/D:
 
 ## Future?
 
-What other tools should we build?  What stats do you want to see?  Drop us an [Issue](https://github.com/Activision/cwl-data/issues) if you want to share ideas.  Or see [Contributing](CONTRIBUTING.md) on how to share code.
+What other tools should we build?  What stats do you want to see?  Drop us an [Issue](https://github.com/Activision/cwl-data/issues) if you want to share ideas.  Or see [Contributing](../CONTRIBUTING.md) on how to share code.
