@@ -1,0 +1,12 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+
+# mac
+.DS_Store
+
+# ide
+.vscode/
+
+# output
+tools/*.csv
