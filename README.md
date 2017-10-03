@@ -8,12 +8,17 @@ The first data release is simply per-player per-game stats for every game in the
 
 Data from the following tournaments is available (see [Data](data)):
 
-* 2017 Champs
+* 2017 CWL Champs - Aug 9-13
+
+
+## Collaboration
+
+Releasing the data is just the first step.  We hope to inspire research into player performance and the creation of new more predictive stats for not just Call of Duty, but any FPS esport.  We look forward to seeing what the community can discover.
 
 
 ## Contributing
 
-Releasing the data is just the first step.  What we do with it is up to us.  See [Contributing](CONTRIBUTING.md) if you'd like to help.
+In addition to the data release, we also include few open source tools for basic aggregation and analysis (see [Tools](tools)).  We welcome contributions of new tools or new features for existing tools.  See [Contributing](CONTRIBUTING.md) if you'd like to help.
 
 
 ## Questions?
@@ -23,7 +28,7 @@ See [Issues](https://github.com/Activision/cwl-data/issues) if you have question
 
 ## License
 
-All data and code files are licensed under the BSD 3-Clause License as follows:
+All code is licensed under the BSD 3-Clause License as follows:
 
 > Copyright (c) 2017, Activision Publishing, Inc.
 > All rights reserved.
