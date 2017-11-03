@@ -1,0 +1,8422 @@
+{
+  "title": "iw",
+  "platform": "ps4",
+  "id": "F28A9CF2-1473-11D3-6C6E-0CFE454272F2",
+  "series_id": "champs-bracket-grand-finals-1",
+  "start_time_s": 1502656677,
+  "end_time_s": 1502657302,
+  "duration_ms": 625000,
+  "mode": "Uplink",
+  "map": "Precinct",
+  "rounds": 2,
+  "teams": [
+    {
+      "name": "TEAM ENVYUS",
+      "score": 2,
+      "is_victor": false,
+      "round_scores": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "OPTIC GAMING",
+      "score": 7,
+      "is_victor": true,
+      "round_scores": [
+        4,
+        3
+      ]
+    }
+  ],
+  "players": [
+    {
+      "name": "APATHY",
+      "team": "TEAM ENVYUS",
+      "kills": 21,
+      "deaths": 22,
+      "kd": 0.95,
+      "kills_per_10min": 20.2,
+      "deaths_per_10min": 21.1,
+      "assists": 10,
+      "headshots": 2,
+      "suicides": 0,
+      "team_kills": 0,
+      "hits": 122,
+      "shots": 640,
+      "accuracy": 19.1,
+      "avg_kill_dist_m": 14.2,
+      "fave_weapon": "Erad",
+      "fave_rig": "Stryker",
+      "fave_payload": "Centurion",
+      "fave_trait": "Trophy Drone",
+      "fave_scorestreaks": [
+        "Scarab",
+        "Trinity Rocket",
+        "Bombardment"
+      ],
+      "2-piece": 5,
+      "3-piece": 0,
+      "4-piece": 0,
+      "multikills": 5,
+      "4-streak": 0,
+      "5-streak": 0,
+      "6-streak": 0,
+      "7-streak": 0,
+      "8+-streak": 0,
+      "4+-streak": 0,
+      "scorestreaks_earned": 0,
+      "scorestreaks_used": 0,
+      "payloads_earned": 0,
+      "payloads_used": 0,
+      "upl_dunks": 0,
+      "upl_throws": 0,
+      "upl_points": 0
+    },
+    {
+      "name": "JKAP",
+      "team": "TEAM ENVYUS",
+      "kills": 13,
+      "deaths": 27,
+      "kd": 0.48,
+      "kills_per_10min": 12.5,
+      "deaths_per_10min": 25.9,
+      "assists": 9,
+      "headshots": 1,
+      "suicides": 0,
+      "team_kills": 0,
+      "hits": 87,
+      "shots": 374,
+      "accuracy": 23.3,
+      "avg_kill_dist_m": 15.3,
+      "fave_weapon": "KBAR-32",
+      "fave_rig": "Warfighter",
+      "fave_payload": "Overdrive",
+      "fave_trait": "Resupply",
+      "fave_scorestreaks": [
+        "Scarab",
+        "Trinity Rocket",
+        "Bombardment"
+      ],
+      "2-piece": 1,
+      "3-piece": 0,
+      "4-piece": 0,
+      "multikills": 1,
+      "4-streak": 0,
+      "5-streak": 0,
+      "6-streak": 0,
+      "7-streak": 0,
+      "8+-streak": 0,
+      "4+-streak": 0,
+      "scorestreaks_earned": 0,
+      "scorestreaks_used": 0,
+      "payloads_earned": 0,
+      "payloads_used": 0,
+      "upl_dunks": 0,
+      "upl_throws": 0,
+      "upl_points": 0
+    },
+    {
+      "name": "JOHN",
+      "team": "TEAM ENVYUS",
+      "kills": 24,
+      "deaths": 23,
+      "kd": 1.04,
+      "kills_per_10min": 23,
+      "deaths_per_10min": 22.1,
+      "assists": 9,
+      "headshots": 3,
+      "suicides": 0,
+      "team_kills": 0,
+      "hits": 113,
+      "shots": 571,
+      "accuracy": 19.8,
+      "avg_kill_dist_m": 14.3,
+      "fave_weapon": "Erad",
+      "fave_rig": "FTL",
+      "fave_payload": "FTL Jump",
+      "fave_trait": "Power Slide",
+      "fave_scorestreaks": [
+        "Scarab",
+        "Trinity Rocket",
+        "Bombardment"
+      ],
+      "2-piece": 3,
+      "3-piece": 0,
+      "4-piece": 0,
+      "multikills": 3,
+      "4-streak": 0,
+      "5-streak": 1,
+      "6-streak": 0,
+      "7-streak": 0,
+      "8+-streak": 0,
+      "4+-streak": 1,
+      "scorestreaks_earned": 1,
+      "scorestreaks_used": 1,
+      "payloads_earned": 1,
+      "payloads_used": 1,
+      "upl_dunks": 1,
+      "upl_throws": 0,
+      "upl_points": 2
+    },
+    {
+      "name": "SLASHER",
+      "team": "TEAM ENVYUS",
+      "kills": 25,
+      "deaths": 22,
+      "kd": 1.14,
+      "kills_per_10min": 24,
+      "deaths_per_10min": 21.1,
+      "assists": 10,
+      "headshots": 1,
+      "suicides": 0,
+      "team_kills": 1,
+      "hits": 129,
+      "shots": 496,
+      "accuracy": 26,
+      "avg_kill_dist_m": 17.8,
+      "fave_weapon": "NV4",
+      "fave_rig": "Phantom",
+      "fave_payload": "Active Camo",
+      "fave_trait": "Rearguard",
+      "fave_scorestreaks": [
+        "Scarab",
+        "Trinity Rocket",
+        "Bombardment"
+      ],
+      "2-piece": 3,
+      "3-piece": 0,
+      "4-piece": 0,
+      "multikills": 3,
+      "4-streak": 0,
+      "5-streak": 0,
+      "6-streak": 0,
+      "7-streak": 0,
+      "8+-streak": 0,
+      "4+-streak": 0,
+      "scorestreaks_earned": 0,
+      "scorestreaks_used": 0,
+      "payloads_earned": 1,
+      "payloads_used": 0,
+      "upl_dunks": 0,
+      "upl_throws": 0,
+      "upl_points": 0
+    },
+    {
+      "name": "CRIMSIX",
+      "team": "OPTIC GAMING",
+      "kills": 20,
+      "deaths": 23,
+      "kd": 0.87,
+      "kills_per_10min": 19.2,
+      "deaths_per_10min": 22.1,
+      "assists": 9,
+      "headshots": 1,
+      "suicides": 0,
+      "team_kills": 0,
+      "hits": 103,
+      "shots": 505,
+      "accuracy": 20.4,
+      "avg_kill_dist_m": 11.9,
+      "fave_weapon": "Erad",
+      "fave_rig": "Warfighter",
+      "fave_payload": "Overdrive",
+      "fave_trait": "Resupply",
+      "fave_scorestreaks": [
+        "Scarab",
+        "Trinity Rocket",
+        "Bombardment"
+      ],
+      "2-piece": 5,
+      "3-piece": 0,
+      "4-piece": 0,
+      "multikills": 5,
+      "4-streak": 1,
+      "5-streak": 0,
+      "6-streak": 0,
+      "7-streak": 0,
+      "8+-streak": 0,
+      "4+-streak": 1,
+      "scorestreaks_earned": 0,
+      "scorestreaks_used": 0,
+      "payloads_earned": 1,
+      "payloads_used": 1,
+      "upl_dunks": 1,
+      "upl_throws": 1,
+      "upl_points": 3
+    },
+    {
+      "name": "FORMAL",
+      "team": "OPTIC GAMING",
+      "kills": 25,
+      "deaths": 20,
+      "kd": 1.25,
+      "kills_per_10min": 24,
+      "deaths_per_10min": 19.2,
+      "assists": 11,
+      "headshots": 3,
+      "suicides": 0,
+      "team_kills": 0,
+      "hits": 132,
+      "shots": 490,
+      "accuracy": 26.9,
+      "avg_kill_dist_m": 23.9,
+      "fave_weapon": "NV4",
+      "fave_rig": "FTL",
+      "fave_payload": "FTL Jump",
+      "fave_trait": "Power Slide",
+      "fave_scorestreaks": [
+        "Scarab",
+        "Trinity Rocket",
+        "Bombardment"
+      ],
+      "2-piece": 2,
+      "3-piece": 2,
+      "4-piece": 0,
+      "multikills": 4,
+      "4-streak": 2,
+      "5-streak": 0,
+      "6-streak": 0,
+      "7-streak": 0,
+      "8+-streak": 0,
+      "4+-streak": 2,
+      "scorestreaks_earned": 1,
+      "scorestreaks_used": 0,
+      "payloads_earned": 1,
+      "payloads_used": 1,
+      "upl_dunks": 1,
+      "upl_throws": 0,
+      "upl_points": 2
+    },
+    {
+      "name": "KARMA",
+      "team": "OPTIC GAMING",
+      "kills": 30,
+      "deaths": 20,
+      "kd": 1.5,
+      "kills_per_10min": 28.8,
+      "deaths_per_10min": 19.2,
+      "assists": 11,
+      "headshots": 0,
+      "suicides": 0,
+      "team_kills": 0,
+      "hits": 141,
+      "shots": 608,
+      "accuracy": 23.2,
+      "avg_kill_dist_m": 13.7,
+      "fave_weapon": "KBAR-32",
+      "fave_rig": "Phantom",
+      "fave_payload": "Active Camo",
+      "fave_trait": "Rearguard",
+      "fave_scorestreaks": [
+        "Scarab",
+        "Trinity Rocket",
+        "Bombardment"
+      ],
+      "2-piece": 4,
+      "3-piece": 0,
+      "4-piece": 0,
+      "multikills": 4,
+      "4-streak": 1,
+      "5-streak": 0,
+      "6-streak": 0,
+      "7-streak": 0,
+      "8+-streak": 0,
+      "4+-streak": 1,
+      "scorestreaks_earned": 0,
+      "scorestreaks_used": 0,
+      "payloads_earned": 1,
+      "payloads_used": 1,
+      "upl_dunks": 0,
+      "upl_throws": 2,
+      "upl_points": 2
+    },
+    {
+      "name": "SCUMP",
+      "team": "OPTIC GAMING",
+      "kills": 19,
+      "deaths": 20,
+      "kd": 0.95,
+      "kills_per_10min": 18.2,
+      "deaths_per_10min": 19.2,
+      "assists": 8,
+      "headshots": 0,
+      "suicides": 0,
+      "team_kills": 0,
+      "hits": 122,
+      "shots": 579,
+      "accuracy": 21.1,
+      "avg_kill_dist_m": 14.2,
+      "fave_weapon": "Erad",
+      "fave_rig": "Stryker",
+      "fave_payload": "Centurion",
+      "fave_trait": "Trophy Drone",
+      "fave_scorestreaks": [
+        "Scarab",
+        "Trinity Rocket",
+        "Bombardment"
+      ],
+      "2-piece": 1,
+      "3-piece": 0,
+      "4-piece": 0,
+      "multikills": 1,
+      "4-streak": 0,
+      "5-streak": 0,
+      "6-streak": 0,
+      "7-streak": 0,
+      "8+-streak": 0,
+      "4+-streak": 0,
+      "scorestreaks_earned": 0,
+      "scorestreaks_used": 0,
+      "payloads_earned": 0,
+      "payloads_used": 0,
+      "upl_dunks": 0,
+      "upl_throws": 0,
+      "upl_points": 0
+    }
+  ],
+  "events": [
+    {
+      "type": "roundstart",
+      "time": 0,
+      "round": 1,
+      "round_time": 0,
+      "data": {}
+    },
+    {
+      "type": "spawn",
+      "time": 0,
+      "round": 1,
+      "round_time": 0,
+      "data": {
+        "pos": {
+          "x": 794,
+          "y": 735,
+          "z": 64
+        },
+        "life": 0,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 0,
+      "round": 1,
+      "round_time": 0,
+      "data": {
+        "pos": {
+          "x": 782,
+          "y": 735,
+          "z": 64
+        },
+        "life": 1,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 0,
+      "round": 1,
+      "round_time": 0,
+      "data": {
+        "pos": {
+          "x": 339,
+          "y": 222,
+          "z": 48
+        },
+        "life": 2,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 0,
+      "round": 1,
+      "round_time": 0,
+      "data": {
+        "pos": {
+          "x": 327,
+          "y": 222,
+          "z": 48
+        },
+        "life": 3,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 0,
+      "round": 1,
+      "round_time": 0,
+      "data": {
+        "pos": {
+          "x": 348,
+          "y": 213,
+          "z": 48
+        },
+        "life": 4,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 0,
+      "round": 1,
+      "round_time": 0,
+      "data": {
+        "pos": {
+          "x": 699,
+          "y": 805,
+          "z": 64
+        },
+        "life": 5,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 0,
+      "round": 1,
+      "round_time": 0,
+      "data": {
+        "pos": {
+          "x": 348,
+          "y": 222,
+          "z": 48
+        },
+        "life": 6,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 0,
+      "round": 1,
+      "round_time": 0,
+      "data": {
+        "pos": {
+          "x": 799,
+          "y": 749,
+          "z": 64
+        },
+        "life": 7,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 93,
+      "round": 1,
+      "round_time": 93,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 294,
+          "z": 9
+        },
+        "life": 2,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 735,
+          "y": 371,
+          "z": 0
+        },
+        "attacker_life": 7,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 77.006,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 94,
+      "round": 1,
+      "round_time": 94,
+      "data": {
+        "pos": {
+          "x": 527,
+          "y": 512,
+          "z": 111
+        },
+        "life": 6,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 513,
+          "y": 634,
+          "z": -71
+        },
+        "attacker_life": 0,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JOHN",
+        "kill_distance": 122.801,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 143,
+      "round": 1,
+      "round_time": 143,
+      "data": {
+        "pos": {
+          "x": 577,
+          "y": 303,
+          "z": 70
+        },
+        "life": 5,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 587,
+          "y": 192,
+          "z": 187
+        },
+        "attacker_life": 3,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "CRIMSIX",
+        "kill_distance": 111.45,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 153,
+      "round": 1,
+      "round_time": 153,
+      "data": {
+        "pos": {
+          "x": 579,
+          "y": 199,
+          "z": 108
+        },
+        "life": 3,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 607,
+          "y": 259,
+          "z": 47
+        },
+        "attacker_life": 7,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "SLASHER",
+        "kill_distance": 66.212,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 162,
+      "round": 1,
+      "round_time": 162,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 8,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 162,
+      "round": 1,
+      "round_time": 162,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 9,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 203,
+      "round": 1,
+      "round_time": 203,
+      "data": {
+        "pos": {
+          "x": 613,
+          "y": 292,
+          "z": 0
+        },
+        "life": 1,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 561,
+          "y": 344,
+          "z": -7
+        },
+        "attacker_life": 4,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "FORMAL",
+        "kill_distance": 73.539,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 213,
+      "round": 1,
+      "round_time": 213,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 10,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 222,
+      "round": 1,
+      "round_time": 222,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 11,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 258,
+      "round": 1,
+      "round_time": 258,
+      "data": {
+        "pos": {
+          "x": 574,
+          "y": 323,
+          "z": 0
+        },
+        "life": 4,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 603,
+          "y": 306,
+          "z": 198
+        },
+        "attacker_life": 0,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "APATHY",
+        "kill_distance": 33.615,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 272,
+      "round": 1,
+      "round_time": 272,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 12,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "death",
+      "time": 272,
+      "round": 1,
+      "round_time": 272,
+      "data": {
+        "pos": {
+          "x": 626,
+          "y": 320,
+          "z": -2
+        },
+        "life": 0,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 569,
+          "y": 335,
+          "z": 0
+        },
+        "attacker_life": 9,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "SCUMP",
+        "kill_distance": 58.941,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 308,
+      "round": 1,
+      "round_time": 308,
+      "data": {
+        "pos": {
+          "x": 523,
+          "y": 263,
+          "z": 108
+        },
+        "life": 7,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 568,
+          "y": 288,
+          "z": 108
+        },
+        "attacker_life": 8,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "KARMA",
+        "kill_distance": 51.478,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 326,
+      "round": 1,
+      "round_time": 326,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 13,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 338,
+      "round": 1,
+      "round_time": 338,
+      "data": {
+        "pos": {
+          "x": 599,
+          "y": 343,
+          "z": -8
+        },
+        "life": 9,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 803,
+          "y": 506,
+          "z": 128
+        },
+        "attacker_life": 12,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JOHN",
+        "kill_distance": 261.123,
+        "means_of_death": "head_shot",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 346,
+      "round": 1,
+      "round_time": 346,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 14,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 380,
+      "round": 1,
+      "round_time": 380,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 681,
+          "z": -72
+        },
+        "life": 15,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 380,
+      "round": 1,
+      "round_time": 380,
+      "data": {
+        "pos": {
+          "x": 735,
+          "y": 449,
+          "z": 170
+        },
+        "life": 12,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 708,
+          "y": 318,
+          "z": 69
+        },
+        "attacker_life": 8,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "FORMAL",
+        "kill_distance": 133.754,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 382,
+      "round": 1,
+      "round_time": 382,
+      "data": {
+        "pos": {
+          "x": 486,
+          "y": 552,
+          "z": 105
+        },
+        "life": 13,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 531,
+          "y": 542,
+          "z": 101
+        },
+        "attacker_life": 10,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "APATHY",
+        "kill_distance": 46.098,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 408,
+      "round": 1,
+      "round_time": 408,
+      "data": {
+        "pos": {
+          "x": 604,
+          "y": 199,
+          "z": 108
+        },
+        "life": 16,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 416,
+      "round": 1,
+      "round_time": 416,
+      "data": {
+        "pos": {
+          "x": 727,
+          "y": 376,
+          "z": 88
+        },
+        "life": 8,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 549,
+          "y": 486,
+          "z": 8
+        },
+        "attacker_life": 10,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "JKAP",
+        "kill_distance": 209.246,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 442,
+      "round": 1,
+      "round_time": 442,
+      "data": {
+        "pos": {
+          "x": 615,
+          "y": 324,
+          "z": 42
+        },
+        "life": 16,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 711,
+          "y": 396,
+          "z": 315
+        },
+        "attacker_life": 15,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JOHN",
+        "kill_distance": 120,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 449,
+      "round": 1,
+      "round_time": 449,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 681,
+          "z": -72
+        },
+        "life": 17,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 452,
+      "round": 1,
+      "round_time": 452,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 18,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 470,
+      "round": 1,
+      "round_time": 470,
+      "data": {
+        "pos": {
+          "x": 621,
+          "y": 370,
+          "z": 6
+        },
+        "life": 10,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 711,
+          "y": 352,
+          "z": 88
+        },
+        "attacker_life": 11,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "CRIMSIX",
+        "kill_distance": 91.782,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 485,
+      "round": 1,
+      "round_time": 485,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 19,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 489,
+      "round": 1,
+      "round_time": 489,
+      "data": {
+        "pos": {
+          "x": 723,
+          "y": 377,
+          "z": 114
+        },
+        "life": 11,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 782,
+          "y": 483,
+          "z": 0
+        },
+        "attacker_life": 17,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 121.314,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 510,
+      "round": 1,
+      "round_time": 510,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 20,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 540,
+      "round": 1,
+      "round_time": 540,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 21,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 559,
+      "round": 1,
+      "round_time": 559,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 22,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 576,
+      "round": 1,
+      "round_time": 576,
+      "data": {
+        "pos": {
+          "x": 498,
+          "y": 385,
+          "z": 112
+        },
+        "life": 18,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 572,
+          "y": 384,
+          "z": -7
+        },
+        "attacker_life": 14,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "APATHY",
+        "kill_distance": 74.007,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 592,
+      "round": 1,
+      "round_time": 592,
+      "data": {
+        "pos": {
+          "x": 600,
+          "y": 194,
+          "z": 223
+        },
+        "life": 20,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 600,
+          "y": 231,
+          "z": 108
+        },
+        "attacker_life": 15,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JOHN",
+        "kill_distance": 37,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 596,
+      "round": 1,
+      "round_time": 596,
+      "data": {
+        "pos": {
+          "x": 659,
+          "y": 413,
+          "z": 158
+        },
+        "life": 17,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 555,
+          "y": 291,
+          "z": 108
+        },
+        "attacker_life": 19,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "FORMAL",
+        "kill_distance": 160.312,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 620,
+      "round": 1,
+      "round_time": 620,
+      "data": {
+        "pos": {
+          "x": 532,
+          "y": 300,
+          "z": 108
+        },
+        "life": 19,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 577,
+          "y": 321,
+          "z": 187
+        },
+        "attacker_life": 15,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 49.659,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 637,
+      "round": 1,
+      "round_time": 637,
+      "data": {
+        "pos": {
+          "x": 568,
+          "y": 255,
+          "z": 108
+        },
+        "life": 14,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 411,
+          "y": 286,
+          "z": 152
+        },
+        "attacker_life": 22,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "SCUMP",
+        "kill_distance": 160.031,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 644,
+      "round": 1,
+      "round_time": 644,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 23,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 661,
+      "round": 1,
+      "round_time": 661,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 24,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 664,
+      "round": 1,
+      "round_time": 664,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 25,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 688,
+      "round": 1,
+      "round_time": 688,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 26,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 706,
+      "round": 1,
+      "round_time": 706,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 27,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 734,
+      "round": 1,
+      "round_time": 734,
+      "data": {
+        "pos": {
+          "x": 533,
+          "y": 192,
+          "z": 200
+        },
+        "life": 15,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 515,
+          "y": 224,
+          "z": 128
+        },
+        "attacker_life": 23,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "KARMA",
+        "kill_distance": 36.715,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 738,
+      "round": 1,
+      "round_time": 738,
+      "data": {
+        "pos": {
+          "x": 433,
+          "y": 374,
+          "z": -5
+        },
+        "life": 22,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 572,
+          "y": 374,
+          "z": 78
+        },
+        "attacker_life": 21,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "SLASHER",
+        "kill_distance": 139,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 802,
+      "round": 1,
+      "round_time": 802,
+      "data": {
+        "pos": {
+          "x": 583,
+          "y": 266,
+          "z": 84
+        },
+        "life": 21,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 568,
+          "y": 384,
+          "z": -7
+        },
+        "attacker_life": 26,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "CRIMSIX",
+        "kill_distance": 118.95,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 804,
+      "round": 1,
+      "round_time": 804,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 28,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 812,
+      "round": 1,
+      "round_time": 812,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 29,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 830,
+      "round": 1,
+      "round_time": 830,
+      "data": {
+        "pos": {
+          "x": 627,
+          "y": 329,
+          "z": 128
+        },
+        "life": 26,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 616,
+          "y": 400,
+          "z": 0
+        },
+        "attacker_life": 27,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JKAP",
+        "kill_distance": 71.847,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 872,
+      "round": 1,
+      "round_time": 872,
+      "data": {
+        "pos": {
+          "x": 848,
+          "y": 567,
+          "z": 0
+        },
+        "life": 30,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 898,
+      "round": 1,
+      "round_time": 898,
+      "data": {
+        "pos": {
+          "x": 638,
+          "y": 415,
+          "z": 0
+        },
+        "life": 28,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 582,
+          "y": 221,
+          "z": 108
+        },
+        "attacker_life": 24,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "KARMA",
+        "kill_distance": 201.921,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 899,
+      "round": 1,
+      "round_time": 899,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 31,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 967,
+      "round": 1,
+      "round_time": 967,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 32,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 989,
+      "round": 1,
+      "round_time": 989,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 398,
+          "z": 63
+        },
+        "life": 25,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 731,
+          "y": 299,
+          "z": 0
+        },
+        "attacker_life": 24,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "FORMAL",
+        "kill_distance": 99.126,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1000,
+      "round": 1,
+      "round_time": 1000,
+      "data": {
+        "pos": {
+          "x": 761,
+          "y": 359,
+          "z": 8
+        },
+        "life": 30,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 589,
+          "y": 304,
+          "z": 0
+        },
+        "attacker_life": 23,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "CRIMSIX",
+        "kill_distance": 180.58,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1034,
+      "round": 1,
+      "round_time": 1034,
+      "data": {
+        "pos": {
+          "x": 626,
+          "y": 482,
+          "z": 8
+        },
+        "life": 27,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 681,
+          "y": 347,
+          "z": 141
+        },
+        "attacker_life": 29,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "SCUMP",
+        "kill_distance": 145.774,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1051,
+      "round": 1,
+      "round_time": 1051,
+      "data": {
+        "pos": {
+          "x": 483,
+          "y": 531,
+          "z": 8
+        },
+        "life": 31,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 531,
+          "y": 535,
+          "z": 8
+        },
+        "attacker_life": 32,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 48.166,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1058,
+      "round": 1,
+      "round_time": 1058,
+      "data": {
+        "pos": {
+          "x": 677,
+          "y": 718,
+          "z": -72
+        },
+        "life": 33,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1069,
+      "round": 1,
+      "round_time": 1069,
+      "data": {
+        "pos": {
+          "x": 620,
+          "y": 822,
+          "z": -74
+        },
+        "life": 34,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1104,
+      "round": 1,
+      "round_time": 1104,
+      "data": {
+        "pos": {
+          "x": 620,
+          "y": 822,
+          "z": -74
+        },
+        "life": 35,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1120,
+      "round": 1,
+      "round_time": 1120,
+      "data": {
+        "pos": {
+          "x": 604,
+          "y": 199,
+          "z": 108
+        },
+        "life": 36,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 1120,
+      "round": 1,
+      "round_time": 1120,
+      "data": {
+        "pos": {
+          "x": 569,
+          "y": 484,
+          "z": 8
+        },
+        "life": 23,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 479,
+          "y": 554,
+          "z": 122
+        },
+        "attacker_life": 32,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "APATHY",
+        "kill_distance": 114.018,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 1130,
+      "round": 1,
+      "round_time": 1130,
+      "data": {
+        "pos": {
+          "x": 722,
+          "y": 380,
+          "z": 90
+        },
+        "life": 29,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 837,
+          "y": 600,
+          "z": 0
+        },
+        "attacker_life": 33,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 248.244,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 1160,
+      "round": 1,
+      "round_time": 1160,
+      "data": {
+        "pos": {
+          "x": 881,
+          "y": 487,
+          "z": 0
+        },
+        "life": 33,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 812,
+          "y": 452,
+          "z": 0
+        },
+        "attacker_life": 24,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "FORMAL",
+        "kill_distance": 77.369,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1189,
+      "round": 1,
+      "round_time": 1189,
+      "data": {
+        "pos": {
+          "x": 604,
+          "y": 199,
+          "z": 108
+        },
+        "life": 37,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1200,
+      "round": 1,
+      "round_time": 1200,
+      "data": {
+        "pos": {
+          "x": 604,
+          "y": 199,
+          "z": 108
+        },
+        "life": 38,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1228,
+      "round": 1,
+      "round_time": 1228,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 39,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "death",
+      "time": 1232,
+      "round": 1,
+      "round_time": 1232,
+      "data": {
+        "pos": {
+          "x": 333,
+          "y": 344,
+          "z": -1
+        },
+        "life": 34,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 482,
+          "y": 350,
+          "z": 90
+        },
+        "attacker_life": 36,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "CRIMSIX",
+        "kill_distance": 149.121,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1240,
+      "round": 1,
+      "round_time": 1240,
+      "data": {
+        "pos": {
+          "x": 486,
+          "y": 351,
+          "z": 49
+        },
+        "life": 36,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 424,
+          "y": 392,
+          "z": 0
+        },
+        "attacker_life": 35,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JKAP",
+        "kill_distance": 74.33,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 1244,
+      "round": 1,
+      "round_time": 1244,
+      "data": {
+        "pos": {
+          "x": 438,
+          "y": 387,
+          "z": -1
+        },
+        "life": 35,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 565,
+          "y": 373,
+          "z": -7
+        },
+        "attacker_life": 24,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "SCUMP",
+        "kill_distance": 127.769,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1260,
+      "round": 1,
+      "round_time": 1260,
+      "data": {
+        "pos": {
+          "x": 456,
+          "y": 366,
+          "z": -8
+        },
+        "life": 32,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 572,
+          "y": 384,
+          "z": 146
+        },
+        "attacker_life": 24,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "KARMA",
+        "kill_distance": 117.388,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1284,
+      "round": 1,
+      "round_time": 1284,
+      "data": {
+        "pos": {
+          "x": 606,
+          "y": 336,
+          "z": 0
+        },
+        "life": 24,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 815,
+          "y": 493,
+          "z": 128
+        },
+        "attacker_life": 39,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JOHN",
+        "kill_distance": 261.4,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1305,
+      "round": 1,
+      "round_time": 1305,
+      "data": {
+        "pos": {
+          "x": 848,
+          "y": 567,
+          "z": 0
+        },
+        "life": 40,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1310,
+      "round": 1,
+      "round_time": 1310,
+      "data": {
+        "pos": {
+          "x": 424,
+          "y": 259,
+          "z": 108
+        },
+        "life": 41,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1313,
+      "round": 1,
+      "round_time": 1313,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 42,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1328,
+      "round": 1,
+      "round_time": 1328,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 43,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1353,
+      "round": 1,
+      "round_time": 1353,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 44,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 1376,
+      "round": 1,
+      "round_time": 1376,
+      "data": {
+        "pos": {
+          "x": 739,
+          "y": 379,
+          "z": 0
+        },
+        "life": 40,
+        "attacker_weapon": "split_grenade",
+        "attacker_pos": {
+          "x": 667,
+          "y": 431,
+          "z": 8
+        },
+        "attacker_life": 37,
+        "attacker_weapon_class": null,
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "CRIMSIX",
+        "kill_distance": 88.814,
+        "means_of_death": "explosive",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1383,
+      "round": 1,
+      "round_time": 1383,
+      "data": {
+        "pos": {
+          "x": 722,
+          "y": 378,
+          "z": 88
+        },
+        "life": 39,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 674,
+          "y": 416,
+          "z": 0
+        },
+        "attacker_life": 37,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "FORMAL",
+        "kill_distance": 61.221,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1436,
+      "round": 1,
+      "round_time": 1436,
+      "data": {
+        "pos": {
+          "x": 690,
+          "y": 410,
+          "z": 0
+        },
+        "life": 37,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 531,
+          "y": 477,
+          "z": 8
+        },
+        "attacker_life": 43,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "APATHY",
+        "kill_distance": 172.54,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 1445,
+      "round": 1,
+      "round_time": 1445,
+      "data": {
+        "pos": {
+          "x": 644,
+          "y": 413,
+          "z": 0
+        },
+        "life": 41,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 628,
+          "y": 481,
+          "z": 8
+        },
+        "attacker_life": 42,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JKAP",
+        "kill_distance": 69.857,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1446,
+      "round": 1,
+      "round_time": 1446,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 45,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1452,
+      "round": 1,
+      "round_time": 1452,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 46,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "death",
+      "time": 1458,
+      "round": 1,
+      "round_time": 1458,
+      "data": {
+        "pos": {
+          "x": 603,
+          "y": 490,
+          "z": 223
+        },
+        "life": 43,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 520,
+          "y": 482,
+          "z": 8
+        },
+        "attacker_life": 44,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "KARMA",
+        "kill_distance": 83.385,
+        "means_of_death": "head_shot",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1468,
+      "round": 1,
+      "round_time": 1468,
+      "data": {
+        "pos": {
+          "x": 639,
+          "y": 486,
+          "z": 8
+        },
+        "life": 42,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 533,
+          "y": 492,
+          "z": 8
+        },
+        "attacker_life": 44,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "SCUMP",
+        "kill_distance": 106.17,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1506,
+      "round": 1,
+      "round_time": 1506,
+      "data": {
+        "pos": {
+          "x": 480,
+          "y": 259,
+          "z": 108
+        },
+        "life": 47,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1514,
+      "round": 1,
+      "round_time": 1514,
+      "data": {
+        "pos": {
+          "x": 535,
+          "y": 192,
+          "z": 108
+        },
+        "life": 48,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1530,
+      "round": 1,
+      "round_time": 1530,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 49,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1536,
+      "round": 1,
+      "round_time": 1536,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 681,
+          "z": -72
+        },
+        "life": 50,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 1590,
+      "round": 1,
+      "round_time": 1590,
+      "data": {
+        "pos": {
+          "x": 794,
+          "y": 577,
+          "z": 0
+        },
+        "life": 50,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 765,
+          "y": 352,
+          "z": 268
+        },
+        "attacker_life": 38,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "SCUMP",
+        "kill_distance": 226.861,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1626,
+      "round": 1,
+      "round_time": 1626,
+      "data": {
+        "pos": {
+          "x": 823,
+          "y": 436,
+          "z": 0
+        },
+        "life": 44,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 849,
+          "y": 575,
+          "z": 0
+        },
+        "attacker_life": 46,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JOHN",
+        "kill_distance": 141.411,
+        "means_of_death": "head_shot",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 1654,
+      "round": 1,
+      "round_time": 1654,
+      "data": {
+        "pos": {
+          "x": 795,
+          "y": 459,
+          "z": 324
+        },
+        "life": 49,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 741,
+          "y": 375,
+          "z": 263
+        },
+        "attacker_life": 38,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "KARMA",
+        "kill_distance": 99.86,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1656,
+      "round": 1,
+      "round_time": 1656,
+      "data": {
+        "pos": {
+          "x": 741,
+          "y": 375,
+          "z": 253
+        },
+        "life": 38,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 811,
+          "y": 559,
+          "z": 93
+        },
+        "attacker_life": 46,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 196.865,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1658,
+      "round": 1,
+      "round_time": 1658,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 51,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1694,
+      "round": 1,
+      "round_time": 1694,
+      "data": {
+        "pos": {
+          "x": 460,
+          "y": 196,
+          "z": 100
+        },
+        "life": 52,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 1694,
+      "round": 1,
+      "round_time": 1694,
+      "data": {
+        "pos": {
+          "x": 876,
+          "y": 431,
+          "z": 0
+        },
+        "life": 45,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 803,
+          "y": 442,
+          "z": 0
+        },
+        "attacker_life": 47,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "CRIMSIX",
+        "kill_distance": 73.824,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1701,
+      "round": 1,
+      "round_time": 1701,
+      "data": {
+        "pos": {
+          "x": 732,
+          "y": 400,
+          "z": 89
+        },
+        "life": 48,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 799,
+          "y": 546,
+          "z": 0
+        },
+        "attacker_life": 46,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JKAP",
+        "kill_distance": 160.639,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1724,
+      "round": 1,
+      "round_time": 1724,
+      "data": {
+        "pos": {
+          "x": 677,
+          "y": 718,
+          "z": -72
+        },
+        "life": 53,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1724,
+      "round": 1,
+      "round_time": 1724,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 54,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 1729,
+      "round": 1,
+      "round_time": 1729,
+      "data": {
+        "pos": {
+          "x": 776,
+          "y": 534,
+          "z": 0
+        },
+        "life": 46,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 776,
+          "y": 524,
+          "z": 0
+        },
+        "attacker_life": 47,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "FORMAL",
+        "kill_distance": 10,
+        "means_of_death": "melee",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1734,
+      "round": 1,
+      "round_time": 1734,
+      "data": {
+        "pos": {
+          "x": 784,
+          "y": 522,
+          "z": 21
+        },
+        "life": 47,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 853,
+          "y": 588,
+          "z": 0
+        },
+        "attacker_life": 51,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "APATHY",
+        "kill_distance": 95.483,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1763,
+      "round": 1,
+      "round_time": 1763,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 55,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1770,
+      "round": 1,
+      "round_time": 1770,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 56,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1798,
+      "round": 1,
+      "round_time": 1798,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 57,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1802,
+      "round": 1,
+      "round_time": 1802,
+      "data": {
+        "pos": {
+          "x": 460,
+          "y": 196,
+          "z": 100
+        },
+        "life": 58,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 1834,
+      "round": 1,
+      "round_time": 1834,
+      "data": {
+        "pos": {
+          "x": 802,
+          "y": 422,
+          "z": 0
+        },
+        "life": 51,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 607,
+          "y": 402,
+          "z": 0
+        },
+        "attacker_life": 54,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "SCUMP",
+        "kill_distance": 196.023,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1842,
+      "round": 1,
+      "round_time": 1842,
+      "data": {
+        "pos": {
+          "x": 607,
+          "y": 400,
+          "z": 0
+        },
+        "life": 54,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 776,
+          "y": 423,
+          "z": 35
+        },
+        "attacker_life": 55,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "SLASHER",
+        "kill_distance": 170.558,
+        "means_of_death": "head_shot",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 1856,
+      "round": 1,
+      "round_time": 1856,
+      "data": {
+        "pos": {
+          "x": 808,
+          "y": 516,
+          "z": 128
+        },
+        "life": 57,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 814,
+          "y": 382,
+          "z": 0
+        },
+        "attacker_life": 52,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "FORMAL",
+        "kill_distance": 134.134,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1876,
+      "round": 1,
+      "round_time": 1876,
+      "data": {
+        "pos": {
+          "x": 526,
+          "y": 559,
+          "z": 66
+        },
+        "life": 53,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 405,
+          "y": 539,
+          "z": 79
+        },
+        "attacker_life": 56,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "KARMA",
+        "kill_distance": 122.642,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 1877,
+      "round": 1,
+      "round_time": 1877,
+      "data": {
+        "pos": {
+          "x": 843,
+          "y": 431,
+          "z": 0
+        },
+        "life": 55,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 817,
+          "y": 463,
+          "z": 144
+        },
+        "attacker_life": 52,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "CRIMSIX",
+        "kill_distance": 41.231,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1903,
+      "round": 1,
+      "round_time": 1903,
+      "data": {
+        "pos": {
+          "x": 620,
+          "y": 822,
+          "z": -74
+        },
+        "life": 59,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1910,
+      "round": 1,
+      "round_time": 1910,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 60,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1924,
+      "round": 1,
+      "round_time": 1924,
+      "data": {
+        "pos": {
+          "x": 365,
+          "y": 806,
+          "z": -8
+        },
+        "life": 61,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1947,
+      "round": 1,
+      "round_time": 1947,
+      "data": {
+        "pos": {
+          "x": 365,
+          "y": 806,
+          "z": -8
+        },
+        "life": 62,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 1950,
+      "round": 1,
+      "round_time": 1950,
+      "data": {
+        "pos": {
+          "x": 372,
+          "y": 809,
+          "z": -8
+        },
+        "life": 63,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 1998,
+      "round": 1,
+      "round_time": 1998,
+      "data": {
+        "pos": {
+          "x": 533,
+          "y": 500,
+          "z": 8
+        },
+        "life": 61,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 508,
+          "y": 554,
+          "z": 8
+        },
+        "attacker_life": 60,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "FORMAL",
+        "kill_distance": 59.506,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 2002,
+      "round": 1,
+      "round_time": 2002,
+      "data": {
+        "pos": {
+          "x": 507,
+          "y": 551,
+          "z": 8
+        },
+        "life": 60,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 525,
+          "y": 570,
+          "z": 52
+        },
+        "attacker_life": 62,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "SLASHER",
+        "kill_distance": 26.173,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2010,
+      "round": 1,
+      "round_time": 2010,
+      "data": {
+        "pos": {
+          "x": 801,
+          "y": 749,
+          "z": 64
+        },
+        "life": 52,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 723,
+          "y": 745,
+          "z": 63
+        },
+        "attacker_life": 59,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JOHN",
+        "kill_distance": 78.102,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2067,
+      "round": 1,
+      "round_time": 2067,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 64,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2072,
+      "round": 1,
+      "round_time": 2072,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 65,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2080,
+      "round": 1,
+      "round_time": 2080,
+      "data": {
+        "pos": {
+          "x": 424,
+          "y": 259,
+          "z": 108
+        },
+        "life": 66,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2086,
+      "round": 1,
+      "round_time": 2086,
+      "data": {
+        "pos": {
+          "x": 514,
+          "y": 486,
+          "z": 8
+        },
+        "life": 56,
+        "attacker_weapon": "satellite",
+        "attacker_pos": {
+          "x": 529,
+          "y": 489,
+          "z": 8
+        },
+        "attacker_life": 62,
+        "attacker_weapon_class": "fists",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "JKAP",
+        "kill_distance": 15.297,
+        "means_of_death": "melee",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2156,
+      "round": 1,
+      "round_time": 2156,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 67,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2158,
+      "round": 1,
+      "round_time": 2158,
+      "data": {
+        "pos": {
+          "x": 593,
+          "y": 332,
+          "z": 0
+        },
+        "life": 58,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 732,
+          "y": 418,
+          "z": 0
+        },
+        "attacker_life": 64,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "APATHY",
+        "kill_distance": 163.453,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2222,
+      "round": 1,
+      "round_time": 2222,
+      "data": {
+        "pos": {
+          "x": 512,
+          "y": 375,
+          "z": 169
+        },
+        "life": 66,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 572,
+          "y": 383,
+          "z": -7
+        },
+        "attacker_life": 63,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JOHN",
+        "kill_distance": 60.531,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2228,
+      "round": 1,
+      "round_time": 2228,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 68,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2245,
+      "round": 1,
+      "round_time": 2245,
+      "data": {
+        "pos": {
+          "x": 591,
+          "y": 190,
+          "z": 137
+        },
+        "life": 67,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 604,
+          "y": 272,
+          "z": 101
+        },
+        "attacker_life": 64,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JKAP",
+        "kill_distance": 83.024,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2280,
+      "round": 1,
+      "round_time": 2280,
+      "data": {
+        "pos": {
+          "x": 475,
+          "y": 265,
+          "z": 132
+        },
+        "life": 63,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 452,
+          "y": 258,
+          "z": 108
+        },
+        "attacker_life": 65,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "KARMA",
+        "kill_distance": 24.042,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2290,
+      "round": 1,
+      "round_time": 2290,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 69,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2308,
+      "round": 1,
+      "round_time": 2308,
+      "data": {
+        "pos": {
+          "x": 550,
+          "y": 303,
+          "z": 108
+        },
+        "life": 59,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 405,
+          "y": 281,
+          "z": 108
+        },
+        "attacker_life": 68,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "SCUMP",
+        "kill_distance": 146.659,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 2309,
+      "round": 1,
+      "round_time": 2309,
+      "data": {
+        "pos": {
+          "x": 422,
+          "y": 205,
+          "z": 161
+        },
+        "life": 65,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 574,
+          "y": 225,
+          "z": 108
+        },
+        "attacker_life": 64,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 153.31,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2314,
+      "round": 1,
+      "round_time": 2314,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 70,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2322,
+      "round": 1,
+      "round_time": 2322,
+      "data": {
+        "pos": {
+          "x": 452,
+          "y": 224,
+          "z": 103
+        },
+        "life": 62,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 454,
+          "y": 250,
+          "z": 108
+        },
+        "attacker_life": 68,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "CRIMSIX",
+        "kill_distance": 26.077,
+        "means_of_death": "head_shot",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2350,
+      "round": 1,
+      "round_time": 2350,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 71,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2358,
+      "round": 1,
+      "round_time": 2358,
+      "data": {
+        "pos": {
+          "x": 470,
+          "y": 292,
+          "z": 108
+        },
+        "life": 68,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 488,
+          "y": 315,
+          "z": 108
+        },
+        "attacker_life": 64,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "APATHY",
+        "kill_distance": 29.206,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2370,
+      "round": 1,
+      "round_time": 2370,
+      "data": {
+        "pos": {
+          "x": 447,
+          "y": 312,
+          "z": 108
+        },
+        "life": 64,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 444,
+          "y": 224,
+          "z": 103
+        },
+        "attacker_life": 69,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "FORMAL",
+        "kill_distance": 88.051,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2376,
+      "round": 1,
+      "round_time": 2376,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 72,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2378,
+      "round": 1,
+      "round_time": 2378,
+      "data": {
+        "pos": {
+          "x": 460,
+          "y": 196,
+          "z": 100
+        },
+        "life": 73,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2396,
+      "round": 1,
+      "round_time": 2396,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 74,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2426,
+      "round": 1,
+      "round_time": 2426,
+      "data": {
+        "pos": {
+          "x": 604,
+          "y": 199,
+          "z": 108
+        },
+        "life": 75,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2439,
+      "round": 1,
+      "round_time": 2439,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 681,
+          "z": -72
+        },
+        "life": 76,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2468,
+      "round": 1,
+      "round_time": 2468,
+      "data": {
+        "pos": {
+          "x": 634,
+          "y": 507,
+          "z": 31
+        },
+        "life": 71,
+        "attacker_weapon": "satellite",
+        "attacker_pos": {
+          "x": 650,
+          "y": 493,
+          "z": 8
+        },
+        "attacker_life": 69,
+        "attacker_weapon_class": "fists",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "KARMA",
+        "kill_distance": 21.26,
+        "means_of_death": "melee",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 2472,
+      "round": 1,
+      "round_time": 2472,
+      "data": {
+        "pos": {
+          "x": 615,
+          "y": 442,
+          "z": 88
+        },
+        "life": 70,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 531,
+          "y": 501,
+          "z": 8
+        },
+        "attacker_life": 72,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JKAP",
+        "kill_distance": 102.65,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2482,
+      "round": 1,
+      "round_time": 2482,
+      "data": {
+        "pos": {
+          "x": 766,
+          "y": 344,
+          "z": 275
+        },
+        "life": 73,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 821,
+          "y": 553,
+          "z": 115
+        },
+        "attacker_life": 76,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 216.116,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2487,
+      "round": 1,
+      "round_time": 2487,
+      "data": {
+        "pos": {
+          "x": 640,
+          "y": 468,
+          "z": 8
+        },
+        "life": 69,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 547,
+          "y": 493,
+          "z": 8
+        },
+        "attacker_life": 72,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JOHN",
+        "kill_distance": 96.302,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2488,
+      "round": 1,
+      "round_time": 2488,
+      "data": {
+        "pos": {
+          "x": 771,
+          "y": 319,
+          "z": 0
+        },
+        "life": 74,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 730,
+          "y": 321,
+          "z": 0
+        },
+        "attacker_life": 75,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "CRIMSIX",
+        "kill_distance": 41.049,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2538,
+      "round": 1,
+      "round_time": 2538,
+      "data": {
+        "pos": {
+          "x": 677,
+          "y": 718,
+          "z": -72
+        },
+        "life": 77,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2541,
+      "round": 1,
+      "round_time": 2541,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 78,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2554,
+      "round": 1,
+      "round_time": 2554,
+      "data": {
+        "pos": {
+          "x": 424,
+          "y": 259,
+          "z": 108
+        },
+        "life": 79,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2556,
+      "round": 1,
+      "round_time": 2556,
+      "data": {
+        "pos": {
+          "x": 460,
+          "y": 196,
+          "z": 100
+        },
+        "life": 80,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2562,
+      "round": 1,
+      "round_time": 2562,
+      "data": {
+        "pos": {
+          "x": 677,
+          "y": 718,
+          "z": -72
+        },
+        "life": 81,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2656,
+      "round": 1,
+      "round_time": 2656,
+      "data": {
+        "pos": {
+          "x": 669,
+          "y": 357,
+          "z": -8
+        },
+        "life": 75,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 610,
+          "y": 496,
+          "z": 9
+        },
+        "attacker_life": 77,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "APATHY",
+        "kill_distance": 151.003,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2681,
+      "round": 1,
+      "round_time": 2681,
+      "data": {
+        "pos": {
+          "x": 365,
+          "y": 479,
+          "z": 80
+        },
+        "life": 81,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 385,
+          "y": 363,
+          "z": 164
+        },
+        "attacker_life": 78,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "CRIMSIX",
+        "kill_distance": 117.712,
+        "means_of_death": "head_shot",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2726,
+      "round": 1,
+      "round_time": 2726,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 82,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2728,
+      "round": 1,
+      "round_time": 2728,
+      "data": {
+        "pos": {
+          "x": 377,
+          "y": 517,
+          "z": 55
+        },
+        "life": 78,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 377,
+          "y": 540,
+          "z": 39
+        },
+        "attacker_life": 77,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 23,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2750,
+      "round": 1,
+      "round_time": 2750,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 83,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2782,
+      "round": 1,
+      "round_time": 2782,
+      "data": {
+        "pos": {
+          "x": 344,
+          "y": 392,
+          "z": 157
+        },
+        "life": 77,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 421,
+          "y": 305,
+          "z": 108
+        },
+        "attacker_life": 79,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "KARMA",
+        "kill_distance": 116.181,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 2783,
+      "round": 1,
+      "round_time": 2783,
+      "data": {
+        "pos": {
+          "x": 384,
+          "y": 453,
+          "z": -8
+        },
+        "life": 72,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 271,
+          "y": 513,
+          "z": -9
+        },
+        "attacker_life": 82,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "SCUMP",
+        "kill_distance": 127.941,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 2788,
+      "round": 1,
+      "round_time": 2788,
+      "data": {
+        "pos": {
+          "x": 606,
+          "y": 452,
+          "z": 42
+        },
+        "life": 80,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 687,
+          "y": 403,
+          "z": 0
+        },
+        "attacker_life": 76,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JOHN",
+        "kill_distance": 94.668,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2796,
+      "round": 1,
+      "round_time": 2796,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 84,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2850,
+      "round": 1,
+      "round_time": 2850,
+      "data": {
+        "pos": {
+          "x": 848,
+          "y": 567,
+          "z": 0
+        },
+        "life": 85,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2854,
+      "round": 1,
+      "round_time": 2854,
+      "data": {
+        "pos": {
+          "x": 572,
+          "y": 208,
+          "z": 119
+        },
+        "life": 79,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 644,
+          "y": 392,
+          "z": 0
+        },
+        "attacker_life": 76,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 197.585,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2856,
+      "round": 1,
+      "round_time": 2856,
+      "data": {
+        "pos": {
+          "x": 848,
+          "y": 567,
+          "z": 0
+        },
+        "life": 86,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2856,
+      "round": 1,
+      "round_time": 2856,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 87,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2856,
+      "round": 1,
+      "round_time": 2856,
+      "data": {
+        "pos": {
+          "x": 512,
+          "y": 535,
+          "z": 95
+        },
+        "life": 82,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 558,
+          "y": 473,
+          "z": 8
+        },
+        "attacker_life": 83,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "APATHY",
+        "kill_distance": 77.201,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2882,
+      "round": 1,
+      "round_time": 2882,
+      "data": {
+        "pos": {
+          "x": 482,
+          "y": 549,
+          "z": 8
+        },
+        "life": 84,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 540,
+          "y": 506,
+          "z": 126
+        },
+        "attacker_life": 83,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "JKAP",
+        "kill_distance": 72.201,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2922,
+      "round": 1,
+      "round_time": 2922,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 88,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2926,
+      "round": 1,
+      "round_time": 2926,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 89,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 2952,
+      "round": 1,
+      "round_time": 2952,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 90,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 2954,
+      "round": 1,
+      "round_time": 2954,
+      "data": {
+        "pos": {
+          "x": 377,
+          "y": 315,
+          "z": 11
+        },
+        "life": 88,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 489,
+          "y": 387,
+          "z": 171
+        },
+        "attacker_life": 85,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "SLASHER",
+        "kill_distance": 133.147,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2957,
+      "round": 1,
+      "round_time": 2957,
+      "data": {
+        "pos": {
+          "x": 475,
+          "y": 387,
+          "z": 111
+        },
+        "life": 85,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 337,
+          "y": 300,
+          "z": 160
+        },
+        "attacker_life": 89,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "KARMA",
+        "kill_distance": 163.135,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 2970,
+      "round": 1,
+      "round_time": 2970,
+      "data": {
+        "pos": {
+          "x": 352,
+          "y": 279,
+          "z": 306
+        },
+        "life": 89,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 418,
+          "y": 360,
+          "z": -8
+        },
+        "attacker_life": 86,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "APATHY",
+        "kill_distance": 104.484,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 2982,
+      "round": 1,
+      "round_time": 2982,
+      "data": {
+        "pos": {
+          "x": 390,
+          "y": 334,
+          "z": 0
+        },
+        "life": 86,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 540,
+          "y": 388,
+          "z": 0
+        },
+        "attacker_life": 87,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "SCUMP",
+        "kill_distance": 159.424,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 2983,
+      "round": 1,
+      "round_time": 2983,
+      "data": {
+        "pos": {
+          "x": 299,
+          "y": 269,
+          "z": 176
+        },
+        "life": 90,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 450,
+          "y": 190,
+          "z": 100
+        },
+        "attacker_life": 76,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JKAP",
+        "kill_distance": 170.417,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "roundend",
+      "time": 2990,
+      "round": 1,
+      "round_time": 2990,
+      "data": {
+        "score2": 4,
+        "score1": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3174,
+      "round": 2,
+      "round_time": 3174,
+      "data": {
+        "pos": {
+          "x": 631,
+          "y": 797,
+          "z": -74
+        },
+        "life": 91,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3174,
+      "round": 2,
+      "round_time": 3174,
+      "data": {
+        "pos": {
+          "x": 348,
+          "y": 222,
+          "z": 48
+        },
+        "life": 92,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3174,
+      "round": 2,
+      "round_time": 3174,
+      "data": {
+        "pos": {
+          "x": 614,
+          "y": 800,
+          "z": -74
+        },
+        "life": 93,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3175,
+      "round": 2,
+      "round_time": 3175,
+      "data": {
+        "pos": {
+          "x": 602,
+          "y": 809,
+          "z": -72
+        },
+        "life": 94,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3176,
+      "round": 2,
+      "round_time": 3176,
+      "data": {
+        "pos": {
+          "x": 640,
+          "y": 810,
+          "z": -74
+        },
+        "life": 95,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3176,
+      "round": 2,
+      "round_time": 3176,
+      "data": {
+        "pos": {
+          "x": 339,
+          "y": 222,
+          "z": 48
+        },
+        "life": 96,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3176,
+      "round": 2,
+      "round_time": 3176,
+      "data": {
+        "pos": {
+          "x": 327,
+          "y": 222,
+          "z": 48
+        },
+        "life": 97,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3177,
+      "round": 2,
+      "round_time": 3177,
+      "data": {
+        "pos": {
+          "x": 348,
+          "y": 213,
+          "z": 48
+        },
+        "life": 98,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "roundstart",
+      "time": 3250,
+      "round": 2,
+      "round_time": 0,
+      "data": {}
+    },
+    {
+      "type": "death",
+      "time": 3328,
+      "round": 2,
+      "round_time": 78,
+      "data": {
+        "pos": {
+          "x": 737,
+          "y": 383,
+          "z": 0
+        },
+        "life": 93,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 736,
+          "y": 373,
+          "z": 0
+        },
+        "attacker_life": 98,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 10.05,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 3359,
+      "round": 2,
+      "round_time": 109,
+      "data": {
+        "pos": {
+          "x": 607,
+          "y": 395,
+          "z": 0
+        },
+        "life": 95,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 690,
+          "y": 344,
+          "z": -7
+        },
+        "attacker_life": 98,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JOHN",
+        "kill_distance": 97.417,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 3366,
+      "round": 2,
+      "round_time": 116,
+      "data": {
+        "pos": {
+          "x": 470,
+          "y": 289,
+          "z": 140
+        },
+        "life": 96,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 531,
+          "y": 260,
+          "z": 108
+        },
+        "attacker_life": 94,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "FORMAL",
+        "kill_distance": 67.543,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 3382,
+      "round": 2,
+      "round_time": 132,
+      "data": {
+        "pos": {
+          "x": 733,
+          "y": 393,
+          "z": 12
+        },
+        "life": 98,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 727,
+          "y": 447,
+          "z": 0
+        },
+        "attacker_life": 91,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "KARMA",
+        "kill_distance": 54.332,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3396,
+      "round": 2,
+      "round_time": 146,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 99,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 3422,
+      "round": 2,
+      "round_time": 172,
+      "data": {
+        "pos": {
+          "x": 652,
+          "y": 408,
+          "z": 0
+        },
+        "life": 97,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 721,
+          "y": 388,
+          "z": 216
+        },
+        "attacker_life": 91,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "SCUMP",
+        "kill_distance": 71.84,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3428,
+      "round": 2,
+      "round_time": 178,
+      "data": {
+        "pos": {
+          "x": 848,
+          "y": 567,
+          "z": 0
+        },
+        "life": 100,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3436,
+      "round": 2,
+      "round_time": 186,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 101,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3450,
+      "round": 2,
+      "round_time": 200,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 102,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 3486,
+      "round": 2,
+      "round_time": 236,
+      "data": {
+        "pos": {
+          "x": 522,
+          "y": 205,
+          "z": 219
+        },
+        "life": 92,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 612,
+          "y": 208,
+          "z": 108
+        },
+        "attacker_life": 91,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "CRIMSIX",
+        "kill_distance": 90.05,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3490,
+      "round": 2,
+      "round_time": 240,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 103,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 3504,
+      "round": 2,
+      "round_time": 254,
+      "data": {
+        "pos": {
+          "x": 611,
+          "y": 196,
+          "z": 120
+        },
+        "life": 91,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 457,
+          "y": 216,
+          "z": 128
+        },
+        "attacker_life": 101,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 155.293,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3554,
+      "round": 2,
+      "round_time": 304,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 104,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 3562,
+      "round": 2,
+      "round_time": 312,
+      "data": {
+        "pos": {
+          "x": 532,
+          "y": 262,
+          "z": 108
+        },
+        "life": 94,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 438,
+          "y": 261,
+          "z": 108
+        },
+        "attacker_life": 101,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "APATHY",
+        "kill_distance": 94.005,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 3567,
+      "round": 2,
+      "round_time": 317,
+      "data": {
+        "pos": {
+          "x": 491,
+          "y": 374,
+          "z": 211
+        },
+        "life": 99,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 566,
+          "y": 387,
+          "z": -1
+        },
+        "attacker_life": 102,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 76.118,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 3568,
+      "round": 2,
+      "round_time": 318,
+      "data": {
+        "pos": {
+          "x": 566,
+          "y": 387,
+          "z": -1
+        },
+        "life": 102,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 571,
+          "y": 349,
+          "z": 73
+        },
+        "attacker_life": 100,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "KARMA",
+        "kill_distance": 38.328,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3574,
+      "round": 2,
+      "round_time": 324,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 105,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 3591,
+      "round": 2,
+      "round_time": 341,
+      "data": {
+        "pos": {
+          "x": 514,
+          "y": 372,
+          "z": -8
+        },
+        "life": 100,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 398,
+          "y": 314,
+          "z": 108
+        },
+        "attacker_life": 101,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JOHN",
+        "kill_distance": 129.692,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3633,
+      "round": 2,
+      "round_time": 383,
+      "data": {
+        "pos": {
+          "x": 857,
+          "y": 431,
+          "z": 0
+        },
+        "life": 106,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3636,
+      "round": 2,
+      "round_time": 386,
+      "data": {
+        "pos": {
+          "x": 857,
+          "y": 431,
+          "z": 0
+        },
+        "life": 107,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3637,
+      "round": 2,
+      "round_time": 387,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 108,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3660,
+      "round": 2,
+      "round_time": 410,
+      "data": {
+        "pos": {
+          "x": 857,
+          "y": 431,
+          "z": 0
+        },
+        "life": 109,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 3704,
+      "round": 2,
+      "round_time": 454,
+      "data": {
+        "pos": {
+          "x": 329,
+          "y": 531,
+          "z": -10
+        },
+        "life": 101,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 526,
+          "y": 543,
+          "z": 8
+        },
+        "attacker_life": 105,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "FORMAL",
+        "kill_distance": 197.365,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 3748,
+      "round": 2,
+      "round_time": 498,
+      "data": {
+        "pos": {
+          "x": 398,
+          "y": 740,
+          "z": -24
+        },
+        "life": 103,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 519,
+          "y": 645,
+          "z": -71
+        },
+        "attacker_life": 106,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "SCUMP",
+        "kill_distance": 153.838,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 3765,
+      "round": 2,
+      "round_time": 515,
+      "data": {
+        "pos": {
+          "x": 519,
+          "y": 654,
+          "z": 192
+        },
+        "life": 105,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 506,
+          "y": 552,
+          "z": 8
+        },
+        "attacker_life": 108,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "SLASHER",
+        "kill_distance": 102.825,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 3766,
+      "round": 2,
+      "round_time": 516,
+      "data": {
+        "pos": {
+          "x": 505,
+          "y": 552,
+          "z": 8
+        },
+        "life": 108,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 507,
+          "y": 599,
+          "z": -17
+        },
+        "attacker_life": 106,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "KARMA",
+        "kill_distance": 47.043,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3772,
+      "round": 2,
+      "round_time": 522,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 110,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3816,
+      "round": 2,
+      "round_time": 566,
+      "data": {
+        "pos": {
+          "x": 203,
+          "y": 392,
+          "z": 0
+        },
+        "life": 111,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3834,
+      "round": 2,
+      "round_time": 584,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 112,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3836,
+      "round": 2,
+      "round_time": 586,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 113,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 3841,
+      "round": 2,
+      "round_time": 591,
+      "data": {
+        "pos": {
+          "x": 296,
+          "y": 501,
+          "z": 44
+        },
+        "life": 110,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 266,
+          "y": 688,
+          "z": -15
+        },
+        "attacker_life": 107,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "FORMAL",
+        "kill_distance": 189.391,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3910,
+      "round": 2,
+      "round_time": 660,
+      "data": {
+        "pos": {
+          "x": 604,
+          "y": 199,
+          "z": 108
+        },
+        "life": 114,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "death",
+      "time": 3928,
+      "round": 2,
+      "round_time": 678,
+      "data": {
+        "pos": {
+          "x": 367,
+          "y": 434,
+          "z": -8
+        },
+        "life": 104,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 413,
+          "y": 544,
+          "z": 8
+        },
+        "attacker_life": 106,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "CRIMSIX",
+        "kill_distance": 119.231,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 3938,
+      "round": 2,
+      "round_time": 688,
+      "data": {
+        "pos": {
+          "x": 197,
+          "y": 412,
+          "z": -1
+        },
+        "life": 107,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 238,
+          "y": 385,
+          "z": 72
+        },
+        "attacker_life": 113,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 49.092,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 3940,
+      "round": 2,
+      "round_time": 690,
+      "data": {
+        "pos": {
+          "x": 376,
+          "y": 531,
+          "z": 0
+        },
+        "life": 106,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 335,
+          "y": 440,
+          "z": -3
+        },
+        "attacker_life": 111,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "APATHY",
+        "kill_distance": 99.81,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 3965,
+      "round": 2,
+      "round_time": 715,
+      "data": {
+        "pos": {
+          "x": 367,
+          "y": 550,
+          "z": 9
+        },
+        "life": 112,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 412,
+          "y": 308,
+          "z": 108
+        },
+        "attacker_life": 114,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 246.148,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 3998,
+      "round": 2,
+      "round_time": 748,
+      "data": {
+        "pos": {
+          "x": 203,
+          "y": 392,
+          "z": 0
+        },
+        "life": 115,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4007,
+      "round": 2,
+      "round_time": 757,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 116,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4010,
+      "round": 2,
+      "round_time": 760,
+      "data": {
+        "pos": {
+          "x": 796,
+          "y": 751,
+          "z": 63
+        },
+        "life": 117,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4022,
+      "round": 2,
+      "round_time": 772,
+      "data": {
+        "pos": {
+          "x": 384,
+          "y": 426,
+          "z": -8
+        },
+        "life": 109,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 402,
+          "y": 507,
+          "z": 0
+        },
+        "attacker_life": 111,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JOHN",
+        "kill_distance": 82.976,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4034,
+      "round": 2,
+      "round_time": 784,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 118,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4087,
+      "round": 2,
+      "round_time": 837,
+      "data": {
+        "pos": {
+          "x": 503,
+          "y": 592,
+          "z": 141
+        },
+        "life": 117,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 503,
+          "y": 609,
+          "z": -37
+        },
+        "attacker_life": 111,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "APATHY",
+        "kill_distance": 17,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4090,
+      "round": 2,
+      "round_time": 840,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 119,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4107,
+      "round": 2,
+      "round_time": 857,
+      "data": {
+        "pos": {
+          "x": 547,
+          "y": 628,
+          "z": 101
+        },
+        "life": 111,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 581,
+          "y": 669,
+          "z": 64
+        },
+        "attacker_life": 118,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "SCUMP",
+        "kill_distance": 53.263,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 4123,
+      "round": 2,
+      "round_time": 873,
+      "data": {
+        "pos": {
+          "x": 583,
+          "y": 651,
+          "z": 64
+        },
+        "life": 118,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 480,
+          "y": 670,
+          "z": 282
+        },
+        "attacker_life": 113,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "SLASHER",
+        "kill_distance": 104.738,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 4149,
+      "round": 2,
+      "round_time": 899,
+      "data": {
+        "pos": {
+          "x": 525,
+          "y": 758,
+          "z": 56
+        },
+        "life": 115,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 556,
+          "y": 827,
+          "z": 22
+        },
+        "attacker_life": 119,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "CRIMSIX",
+        "kill_distance": 75.644,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4156,
+      "round": 2,
+      "round_time": 906,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 120,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4173,
+      "round": 2,
+      "round_time": 923,
+      "data": {
+        "pos": {
+          "x": 451,
+          "y": 697,
+          "z": -40
+        },
+        "life": 114,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 528,
+          "y": 650,
+          "z": -71
+        },
+        "attacker_life": 116,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "FORMAL",
+        "kill_distance": 90.211,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4176,
+      "round": 2,
+      "round_time": 926,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 121,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4196,
+      "round": 2,
+      "round_time": 946,
+      "data": {
+        "pos": {
+          "x": 857,
+          "y": 431,
+          "z": 0
+        },
+        "life": 122,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4202,
+      "round": 2,
+      "round_time": 952,
+      "data": {
+        "pos": {
+          "x": 681,
+          "y": 723,
+          "z": -72
+        },
+        "life": 113,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 599,
+          "y": 736,
+          "z": -71
+        },
+        "attacker_life": 119,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "KARMA",
+        "kill_distance": 83.024,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4219,
+      "round": 2,
+      "round_time": 969,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 123,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4242,
+      "round": 2,
+      "round_time": 992,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 124,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4270,
+      "round": 2,
+      "round_time": 1020,
+      "data": {
+        "pos": {
+          "x": 526,
+          "y": 548,
+          "z": 37
+        },
+        "life": 119,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 491,
+          "y": 553,
+          "z": 119
+        },
+        "attacker_life": 123,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "JOHN",
+        "kill_distance": 35.355,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4276,
+      "round": 2,
+      "round_time": 1026,
+      "data": {
+        "pos": {
+          "x": 203,
+          "y": 392,
+          "z": 0
+        },
+        "life": 125,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4280,
+      "round": 2,
+      "round_time": 1030,
+      "data": {
+        "pos": {
+          "x": 530,
+          "y": 558,
+          "z": 8
+        },
+        "life": 120,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 529,
+          "y": 503,
+          "z": 84
+        },
+        "attacker_life": 123,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "APATHY",
+        "kill_distance": 55.009,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 4293,
+      "round": 2,
+      "round_time": 1043,
+      "data": {
+        "pos": {
+          "x": 542,
+          "y": 471,
+          "z": 8
+        },
+        "life": 123,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 559,
+          "y": 464,
+          "z": 8
+        },
+        "attacker_life": 116,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "CRIMSIX",
+        "kill_distance": 18.385,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4339,
+      "round": 2,
+      "round_time": 1089,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 681,
+          "z": -72
+        },
+        "life": 126,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4343,
+      "round": 2,
+      "round_time": 1093,
+      "data": {
+        "pos": {
+          "x": 543,
+          "y": 510,
+          "z": 8
+        },
+        "life": 121,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 543,
+          "y": 475,
+          "z": 105
+        },
+        "attacker_life": 116,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "SCUMP",
+        "kill_distance": 35,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4348,
+      "round": 2,
+      "round_time": 1098,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 681,
+          "z": -72
+        },
+        "life": 127,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4362,
+      "round": 2,
+      "round_time": 1112,
+      "data": {
+        "pos": {
+          "x": 556,
+          "y": 508,
+          "z": 23
+        },
+        "life": 116,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 528,
+          "y": 503,
+          "z": 87
+        },
+        "attacker_life": 125,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 28.443,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4363,
+      "round": 2,
+      "round_time": 1113,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 128,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4369,
+      "round": 2,
+      "round_time": 1119,
+      "data": {
+        "pos": {
+          "x": 536,
+          "y": 470,
+          "z": 111
+        },
+        "life": 125,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 641,
+          "y": 442,
+          "z": 8
+        },
+        "attacker_life": 122,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "KARMA",
+        "kill_distance": 108.669,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 4388,
+      "round": 2,
+      "round_time": 1138,
+      "data": {
+        "pos": {
+          "x": 633,
+          "y": 392,
+          "z": 208
+        },
+        "life": 122,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 645,
+          "y": 314,
+          "z": 76
+        },
+        "attacker_life": 124,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 78.918,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4412,
+      "round": 2,
+      "round_time": 1162,
+      "data": {
+        "pos": {
+          "x": 424,
+          "y": 259,
+          "z": 108
+        },
+        "life": 129,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4432,
+      "round": 2,
+      "round_time": 1182,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 130,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4433,
+      "round": 2,
+      "round_time": 1183,
+      "data": {
+        "pos": {
+          "x": 684,
+          "y": 365,
+          "z": 0
+        },
+        "life": 124,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 728,
+          "y": 327,
+          "z": 0
+        },
+        "attacker_life": 127,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "FORMAL",
+        "kill_distance": 58.138,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4438,
+      "round": 2,
+      "round_time": 1188,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 131,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4446,
+      "round": 2,
+      "round_time": 1196,
+      "data": {
+        "pos": {
+          "x": 528,
+          "y": 537,
+          "z": 8
+        },
+        "life": 126,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 472,
+          "y": 540,
+          "z": 129
+        },
+        "attacker_life": 128,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "JOHN",
+        "kill_distance": 56.08,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4458,
+      "round": 2,
+      "round_time": 1208,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 132,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4491,
+      "round": 2,
+      "round_time": 1241,
+      "data": {
+        "pos": {
+          "x": 509,
+          "y": 589,
+          "z": 3
+        },
+        "life": 129,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 502,
+          "y": 674,
+          "z": -71
+        },
+        "attacker_life": 130,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "SCUMP",
+        "kill_distance": 85.288,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4502,
+      "round": 2,
+      "round_time": 1252,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 133,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4514,
+      "round": 2,
+      "round_time": 1264,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 134,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4560,
+      "round": 2,
+      "round_time": 1310,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 135,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4561,
+      "round": 2,
+      "round_time": 1311,
+      "data": {
+        "pos": {
+          "x": 639,
+          "y": 481,
+          "z": 8
+        },
+        "life": 128,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 676,
+          "y": 388,
+          "z": 0
+        },
+        "attacker_life": 127,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "CRIMSIX",
+        "kill_distance": 100.09,
+        "means_of_death": "head_shot",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4631,
+      "round": 2,
+      "round_time": 1381,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 136,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4674,
+      "round": 2,
+      "round_time": 1424,
+      "data": {
+        "pos": {
+          "x": 419,
+          "y": 540,
+          "z": 8
+        },
+        "life": 130,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 390,
+          "y": 517,
+          "z": 0
+        },
+        "attacker_life": 136,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "JKAP",
+        "kill_distance": 37.014,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 4741,
+      "round": 2,
+      "round_time": 1491,
+      "data": {
+        "pos": {
+          "x": 695,
+          "y": 272,
+          "z": 64
+        },
+        "life": 134,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 558,
+          "y": 361,
+          "z": 157
+        },
+        "attacker_life": 131,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JOHN",
+        "kill_distance": 163.371,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 4743,
+      "round": 2,
+      "round_time": 1493,
+      "data": {
+        "pos": {
+          "x": 600,
+          "y": 506,
+          "z": 71
+        },
+        "life": 127,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 514,
+          "y": 481,
+          "z": 62
+        },
+        "attacker_life": 136,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "APATHY",
+        "kill_distance": 89.56,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4744,
+      "round": 2,
+      "round_time": 1494,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 137,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4771,
+      "round": 2,
+      "round_time": 1521,
+      "data": {
+        "pos": {
+          "x": 632,
+          "y": 309,
+          "z": 0
+        },
+        "life": 135,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 741,
+          "y": 351,
+          "z": 0
+        },
+        "attacker_life": 132,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "SCUMP",
+        "kill_distance": 116.812,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 4786,
+      "round": 2,
+      "round_time": 1536,
+      "data": {
+        "pos": {
+          "x": 569,
+          "y": 312,
+          "z": 142
+        },
+        "life": 133,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 727,
+          "y": 317,
+          "z": 204
+        },
+        "attacker_life": 132,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "FORMAL",
+        "kill_distance": 158.079,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 4792,
+      "round": 2,
+      "round_time": 1542,
+      "data": {
+        "pos": {
+          "x": 726,
+          "y": 324,
+          "z": 81
+        },
+        "life": 132,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 659,
+          "y": 387,
+          "z": 89
+        },
+        "attacker_life": 136,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "SLASHER",
+        "kill_distance": 91.967,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4810,
+      "round": 2,
+      "round_time": 1560,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 138,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4813,
+      "round": 2,
+      "round_time": 1563,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 139,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4822,
+      "round": 2,
+      "round_time": 1572,
+      "data": {
+        "pos": {
+          "x": 814,
+          "y": 382,
+          "z": 0
+        },
+        "life": 137,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 809,
+          "y": 448,
+          "z": 80
+        },
+        "attacker_life": 131,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 66.189,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4844,
+      "round": 2,
+      "round_time": 1594,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 140,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4856,
+      "round": 2,
+      "round_time": 1606,
+      "data": {
+        "pos": {
+          "x": 424,
+          "y": 259,
+          "z": 108
+        },
+        "life": 141,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4862,
+      "round": 2,
+      "round_time": 1612,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 142,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4894,
+      "round": 2,
+      "round_time": 1644,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 143,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 4902,
+      "round": 2,
+      "round_time": 1652,
+      "data": {
+        "pos": {
+          "x": 801,
+          "y": 467,
+          "z": 0
+        },
+        "life": 131,
+        "attacker_weapon": "split_grenade",
+        "attacker_pos": {
+          "x": 787,
+          "y": 625,
+          "z": 228
+        },
+        "attacker_life": 138,
+        "attacker_weapon_class": null,
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "KARMA",
+        "kill_distance": 158.619,
+        "means_of_death": "explosive",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 4940,
+      "round": 2,
+      "round_time": 1690,
+      "data": {
+        "pos": {
+          "x": 533,
+          "y": 612,
+          "z": 68
+        },
+        "life": 140,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 560,
+          "y": 689,
+          "z": 88
+        },
+        "attacker_life": 143,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "JKAP",
+        "id": "SCUMP",
+        "kill_distance": 81.597,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 4958,
+      "round": 2,
+      "round_time": 1708,
+      "data": {
+        "pos": {
+          "x": 841,
+          "y": 484,
+          "z": 0
+        },
+        "life": 139,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 811,
+          "y": 382,
+          "z": 0
+        },
+        "attacker_life": 136,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "APATHY",
+        "kill_distance": 106.32,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 4961,
+      "round": 2,
+      "round_time": 1711,
+      "data": {
+        "pos": {
+          "x": 808,
+          "y": 382,
+          "z": 0
+        },
+        "life": 136,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 844,
+          "y": 490,
+          "z": 17
+        },
+        "attacker_life": 138,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "CRIMSIX",
+        "kill_distance": 113.842,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 4975,
+      "round": 2,
+      "round_time": 1725,
+      "data": {
+        "pos": {
+          "x": 535,
+          "y": 192,
+          "z": 108
+        },
+        "life": 144,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5008,
+      "round": 2,
+      "round_time": 1758,
+      "data": {
+        "pos": {
+          "x": 203,
+          "y": 392,
+          "z": 0
+        },
+        "life": 145,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5028,
+      "round": 2,
+      "round_time": 1778,
+      "data": {
+        "pos": {
+          "x": 739,
+          "y": 335,
+          "z": 87
+        },
+        "life": 138,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 720,
+          "y": 327,
+          "z": 192
+        },
+        "attacker_life": 141,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JOHN",
+        "kill_distance": 20.616,
+        "means_of_death": "head_shot",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5029,
+      "round": 2,
+      "round_time": 1779,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 146,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5030,
+      "round": 2,
+      "round_time": 1780,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 147,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5063,
+      "round": 2,
+      "round_time": 1813,
+      "data": {
+        "pos": {
+          "x": 739,
+          "y": 354,
+          "z": 68
+        },
+        "life": 141,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 737,
+          "y": 454,
+          "z": 119
+        },
+        "attacker_life": 142,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "FORMAL",
+        "kill_distance": 100.02,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 5084,
+      "round": 2,
+      "round_time": 1834,
+      "data": {
+        "pos": {
+          "x": 545,
+          "y": 380,
+          "z": -8
+        },
+        "life": 143,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 402,
+          "y": 344,
+          "z": 77
+        },
+        "attacker_life": 147,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "JKAP",
+        "kill_distance": 147.462,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5098,
+      "round": 2,
+      "round_time": 1848,
+      "data": {
+        "pos": {
+          "x": 848,
+          "y": 567,
+          "z": 0
+        },
+        "life": 148,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5108,
+      "round": 2,
+      "round_time": 1858,
+      "data": {
+        "pos": {
+          "x": 653,
+          "y": 410,
+          "z": 0
+        },
+        "life": 144,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 685,
+          "y": 288,
+          "z": 107
+        },
+        "attacker_life": 142,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "KARMA",
+        "kill_distance": 126.127,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 5122,
+      "round": 2,
+      "round_time": 1872,
+      "data": {
+        "pos": {
+          "x": 692,
+          "y": 278,
+          "z": -5
+        },
+        "life": 142,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 634,
+          "y": 484,
+          "z": 8
+        },
+        "attacker_life": 145,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "SLASHER",
+        "kill_distance": 214.009,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5132,
+      "round": 2,
+      "round_time": 1882,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 149,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5154,
+      "round": 2,
+      "round_time": 1904,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 150,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5162,
+      "round": 2,
+      "round_time": 1912,
+      "data": {
+        "pos": {
+          "x": 667,
+          "y": 389,
+          "z": 3
+        },
+        "life": 146,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 603,
+          "y": 350,
+          "z": -7
+        },
+        "attacker_life": 147,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "APATHY",
+        "kill_distance": 74.947,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 5164,
+      "round": 2,
+      "round_time": 1914,
+      "data": {
+        "pos": {
+          "x": 603,
+          "y": 350,
+          "z": -8
+        },
+        "life": 147,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 719,
+          "y": 408,
+          "z": 0
+        },
+        "attacker_life": 148,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "CRIMSIX",
+        "kill_distance": 129.692,
+        "means_of_death": "head_shot",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5177,
+      "round": 2,
+      "round_time": 1927,
+      "data": {
+        "pos": {
+          "x": 424,
+          "y": 259,
+          "z": 108
+        },
+        "life": 151,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5192,
+      "round": 2,
+      "round_time": 1942,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 152,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5216,
+      "round": 2,
+      "round_time": 1966,
+      "data": {
+        "pos": {
+          "x": 701,
+          "y": 282,
+          "z": -8
+        },
+        "life": 149,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 722,
+          "y": 374,
+          "z": 152
+        },
+        "attacker_life": 148,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "FORMAL",
+        "kill_distance": 94.366,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5232,
+      "round": 2,
+      "round_time": 1982,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 681,
+          "z": -72
+        },
+        "life": 153,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5232,
+      "round": 2,
+      "round_time": 1982,
+      "data": {
+        "pos": {
+          "x": 724,
+          "y": 358,
+          "z": 187
+        },
+        "life": 148,
+        "attacker_weapon": "split_grenade",
+        "attacker_pos": {
+          "x": 602,
+          "y": 328,
+          "z": 74
+        },
+        "attacker_life": 151,
+        "attacker_weapon_class": null,
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JOHN",
+        "kill_distance": 125.634,
+        "means_of_death": "explosive",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5234,
+      "round": 2,
+      "round_time": 1984,
+      "data": {
+        "pos": {
+          "x": 604,
+          "y": 199,
+          "z": 108
+        },
+        "life": 154,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5257,
+      "round": 2,
+      "round_time": 2007,
+      "data": {
+        "pos": {
+          "x": 527,
+          "y": 550,
+          "z": 28
+        },
+        "life": 150,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 535,
+          "y": 470,
+          "z": 8
+        },
+        "attacker_life": 145,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JKAP",
+        "kill_distance": 80.399,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5285,
+      "round": 2,
+      "round_time": 2035,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 155,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5298,
+      "round": 2,
+      "round_time": 2048,
+      "data": {
+        "pos": {
+          "x": 789,
+          "y": 419,
+          "z": 0
+        },
+        "life": 153,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 708,
+          "y": 453,
+          "z": 87
+        },
+        "attacker_life": 151,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "APATHY",
+        "kill_distance": 87.846,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5300,
+      "round": 2,
+      "round_time": 2050,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 156,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5330,
+      "round": 2,
+      "round_time": 2080,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 157,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5341,
+      "round": 2,
+      "round_time": 2091,
+      "data": {
+        "pos": {
+          "x": 805,
+          "y": 466,
+          "z": 0
+        },
+        "life": 154,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 744,
+          "y": 459,
+          "z": 0
+        },
+        "attacker_life": 152,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "CRIMSIX",
+        "kill_distance": 61.4,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 5364,
+      "round": 2,
+      "round_time": 2114,
+      "data": {
+        "pos": {
+          "x": 839,
+          "y": 584,
+          "z": 0
+        },
+        "life": 145,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 779,
+          "y": 692,
+          "z": 62
+        },
+        "attacker_life": 156,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "SCUMP",
+        "kill_distance": 123.548,
+        "means_of_death": "head_shot",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5367,
+      "round": 2,
+      "round_time": 2117,
+      "data": {
+        "pos": {
+          "x": 620,
+          "y": 822,
+          "z": -74
+        },
+        "life": 158,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5379,
+      "round": 2,
+      "round_time": 2129,
+      "data": {
+        "pos": {
+          "x": 847,
+          "y": 415,
+          "z": 24
+        },
+        "life": 152,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 664,
+          "y": 417,
+          "z": 6
+        },
+        "attacker_life": 155,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "SLASHER",
+        "kill_distance": 183.011,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 5404,
+      "round": 2,
+      "round_time": 2154,
+      "data": {
+        "pos": {
+          "x": 816,
+          "y": 672,
+          "z": -72
+        },
+        "life": 151,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 695,
+          "y": 671,
+          "z": -71
+        },
+        "attacker_life": 158,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "KARMA",
+        "kill_distance": 121.004,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5410,
+      "round": 2,
+      "round_time": 2160,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 159,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5412,
+      "round": 2,
+      "round_time": 2162,
+      "data": {
+        "pos": {
+          "x": 807,
+          "y": 689,
+          "z": 62
+        },
+        "life": 157,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 796,
+          "y": 476,
+          "z": 148
+        },
+        "attacker_life": 155,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JKAP",
+        "kill_distance": 213.284,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 5422,
+      "round": 2,
+      "round_time": 2172,
+      "data": {
+        "pos": {
+          "x": 771,
+          "y": 648,
+          "z": -64
+        },
+        "life": 156,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 809,
+          "y": 484,
+          "z": 128
+        },
+        "attacker_life": 155,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JOHN",
+        "kill_distance": 168.345,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5432,
+      "round": 2,
+      "round_time": 2182,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 160,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5432,
+      "round": 2,
+      "round_time": 2182,
+      "data": {
+        "pos": {
+          "x": 821,
+          "y": 476,
+          "z": 200
+        },
+        "life": 155,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 787,
+          "y": 605,
+          "z": 51
+        },
+        "attacker_life": 158,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "FORMAL",
+        "kill_distance": 133.405,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5448,
+      "round": 2,
+      "round_time": 2198,
+      "data": {
+        "pos": {
+          "x": 848,
+          "y": 567,
+          "z": 0
+        },
+        "life": 161,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5472,
+      "round": 2,
+      "round_time": 2222,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 162,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5482,
+      "round": 2,
+      "round_time": 2232,
+      "data": {
+        "pos": {
+          "x": 620,
+          "y": 822,
+          "z": -74
+        },
+        "life": 163,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5490,
+      "round": 2,
+      "round_time": 2240,
+      "data": {
+        "pos": {
+          "x": 788,
+          "y": 751,
+          "z": 63
+        },
+        "life": 164,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5490,
+      "round": 2,
+      "round_time": 2240,
+      "data": {
+        "pos": {
+          "x": 603,
+          "y": 349,
+          "z": -8
+        },
+        "life": 159,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 768,
+          "y": 435,
+          "z": 0
+        },
+        "attacker_life": 161,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "CRIMSIX",
+        "kill_distance": 186.067,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5501,
+      "round": 2,
+      "round_time": 2251,
+      "data": {
+        "pos": {
+          "x": 261,
+          "y": 399,
+          "z": 72
+        },
+        "life": 165,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5548,
+      "round": 2,
+      "round_time": 2298,
+      "data": {
+        "pos": {
+          "x": 664,
+          "y": 426,
+          "z": 8
+        },
+        "life": 158,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 550,
+          "y": 500,
+          "z": 8
+        },
+        "attacker_life": 160,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "APATHY",
+        "kill_distance": 135.912,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 5554,
+      "round": 2,
+      "round_time": 2304,
+      "data": {
+        "pos": {
+          "x": 548,
+          "y": 494,
+          "z": 8
+        },
+        "life": 160,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 725,
+          "y": 376,
+          "z": 92
+        },
+        "attacker_life": 161,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "SCUMP",
+        "kill_distance": 212.728,
+        "means_of_death": "head_shot",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5560,
+      "round": 2,
+      "round_time": 2310,
+      "data": {
+        "pos": {
+          "x": 335,
+          "y": 399,
+          "z": -4
+        },
+        "life": 166,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5610,
+      "round": 2,
+      "round_time": 2360,
+      "data": {
+        "pos": {
+          "x": 528,
+          "y": 544,
+          "z": 43
+        },
+        "life": 164,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 489,
+          "y": 552,
+          "z": 8
+        },
+        "attacker_life": 166,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "JOHN",
+        "kill_distance": 39.812,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5618,
+      "round": 2,
+      "round_time": 2368,
+      "data": {
+        "pos": {
+          "x": 848,
+          "y": 567,
+          "z": 0
+        },
+        "life": 167,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5618,
+      "round": 2,
+      "round_time": 2368,
+      "data": {
+        "pos": {
+          "x": 651,
+          "y": 464,
+          "z": 8
+        },
+        "life": 163,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 573,
+          "y": 194,
+          "z": 108
+        },
+        "attacker_life": 165,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "FORMAL",
+        "id": "JKAP",
+        "kill_distance": 281.041,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5622,
+      "round": 2,
+      "round_time": 2372,
+      "data": {
+        "pos": {
+          "x": 424,
+          "y": 259,
+          "z": 108
+        },
+        "life": 168,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5636,
+      "round": 2,
+      "round_time": 2386,
+      "data": {
+        "pos": {
+          "x": 579,
+          "y": 492,
+          "z": 9
+        },
+        "life": 166,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 723,
+          "y": 374,
+          "z": 92
+        },
+        "attacker_life": 161,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "CRIMSIX",
+        "kill_distance": 186.172,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 5652,
+      "round": 2,
+      "round_time": 2402,
+      "data": {
+        "pos": {
+          "x": 719,
+          "y": 381,
+          "z": 88
+        },
+        "life": 161,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 652,
+          "y": 407,
+          "z": 66
+        },
+        "attacker_life": 162,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "SLASHER",
+        "kill_distance": 71.868,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 5664,
+      "round": 2,
+      "round_time": 2414,
+      "data": {
+        "pos": {
+          "x": 575,
+          "y": 312,
+          "z": 168
+        },
+        "life": 165,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 728,
+          "y": 429,
+          "z": 0
+        },
+        "attacker_life": 167,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "APATHY",
+        "id": "FORMAL",
+        "kill_distance": 192.608,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 5672,
+      "round": 2,
+      "round_time": 2422,
+      "data": {
+        "pos": {
+          "x": 735,
+          "y": 434,
+          "z": 0
+        },
+        "life": 167,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 684,
+          "y": 413,
+          "z": 0
+        },
+        "attacker_life": 162,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "APATHY",
+        "kill_distance": 55.154,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5680,
+      "round": 2,
+      "round_time": 2430,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 169,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5688,
+      "round": 2,
+      "round_time": 2438,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 170,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5709,
+      "round": 2,
+      "round_time": 2459,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 171,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5726,
+      "round": 2,
+      "round_time": 2476,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 172,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5732,
+      "round": 2,
+      "round_time": 2482,
+      "data": {
+        "pos": {
+          "x": 801,
+          "y": 712,
+          "z": 60
+        },
+        "life": 170,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 843,
+          "y": 507,
+          "z": 315
+        },
+        "attacker_life": 162,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 209.258,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5736,
+      "round": 2,
+      "round_time": 2486,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 173,
+        "team": 2,
+        "id": "FORMAL"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5738,
+      "round": 2,
+      "round_time": 2488,
+      "data": {
+        "pos": {
+          "x": 866,
+          "y": 522,
+          "z": 286
+        },
+        "life": 162,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 784,
+          "y": 698,
+          "z": 62
+        },
+        "attacker_life": 169,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "KARMA",
+        "kill_distance": 194.165,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5741,
+      "round": 2,
+      "round_time": 2491,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 174,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5801,
+      "round": 2,
+      "round_time": 2551,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 681,
+          "z": -72
+        },
+        "life": 175,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5810,
+      "round": 2,
+      "round_time": 2560,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 176,
+        "team": 2,
+        "id": "KARMA"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5826,
+      "round": 2,
+      "round_time": 2576,
+      "data": {
+        "pos": {
+          "x": 775,
+          "y": 484,
+          "z": 186
+        },
+        "life": 174,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 812,
+          "y": 514,
+          "z": 128
+        },
+        "attacker_life": 172,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "APATHY",
+        "kill_distance": 47.634,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 5852,
+      "round": 2,
+      "round_time": 2602,
+      "data": {
+        "pos": {
+          "x": 732,
+          "y": 374,
+          "z": 0
+        },
+        "life": 171,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 729,
+          "y": 378,
+          "z": 0
+        },
+        "attacker_life": 169,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "CRIMSIX",
+        "kill_distance": 5,
+        "means_of_death": "melee",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 5866,
+      "round": 2,
+      "round_time": 2616,
+      "data": {
+        "pos": {
+          "x": 732,
+          "y": 354,
+          "z": 0
+        },
+        "life": 169,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 771,
+          "y": 344,
+          "z": 0
+        },
+        "attacker_life": 168,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JOHN",
+        "kill_distance": 40.262,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5894,
+      "round": 2,
+      "round_time": 2644,
+      "data": {
+        "pos": {
+          "x": 620,
+          "y": 822,
+          "z": -74
+        },
+        "life": 177,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5914,
+      "round": 2,
+      "round_time": 2664,
+      "data": {
+        "pos": {
+          "x": 838,
+          "y": 451,
+          "z": 170
+        },
+        "life": 175,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 645,
+          "y": 394,
+          "z": 71
+        },
+        "attacker_life": 176,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JKAP",
+        "kill_distance": 201.241,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5922,
+      "round": 2,
+      "round_time": 2672,
+      "data": {
+        "pos": {
+          "x": 604,
+          "y": 199,
+          "z": 108
+        },
+        "life": 178,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5935,
+      "round": 2,
+      "round_time": 2685,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 681,
+          "z": -72
+        },
+        "life": 179,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5936,
+      "round": 2,
+      "round_time": 2686,
+      "data": {
+        "pos": {
+          "x": 850,
+          "y": 428,
+          "z": 0
+        },
+        "life": 172,
+        "attacker_weapon": "kbar-32",
+        "attacker_pos": {
+          "x": 654,
+          "y": 409,
+          "z": 0
+        },
+        "attacker_life": 176,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "SLASHER",
+        "kill_distance": 196.919,
+        "means_of_death": "rifle_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 5984,
+      "round": 2,
+      "round_time": 2734,
+      "data": {
+        "pos": {
+          "x": 852,
+          "y": 546,
+          "z": 0
+        },
+        "life": 177,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 780,
+          "y": 520,
+          "z": 177
+        },
+        "attacker_life": 178,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "APATHY",
+        "kill_distance": 76.551,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 5988,
+      "round": 2,
+      "round_time": 2738,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 180,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "death",
+      "time": 5992,
+      "round": 2,
+      "round_time": 2742,
+      "data": {
+        "pos": {
+          "x": 810,
+          "y": 536,
+          "z": 0
+        },
+        "life": 179,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 781,
+          "y": 559,
+          "z": 0
+        },
+        "attacker_life": 178,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "CRIMSIX",
+        "id": "JOHN",
+        "kill_distance": 37.014,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 6005,
+      "round": 2,
+      "round_time": 2755,
+      "data": {
+        "pos": {
+          "x": 736,
+          "y": 812,
+          "z": 68
+        },
+        "life": 181,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 6021,
+      "round": 2,
+      "round_time": 2771,
+      "data": {
+        "pos": {
+          "x": 773,
+          "y": 736,
+          "z": 63
+        },
+        "life": 180,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 853,
+          "y": 557,
+          "z": 0
+        },
+        "attacker_life": 168,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "SCUMP",
+        "id": "JKAP",
+        "kill_distance": 196.064,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "death",
+      "time": 6037,
+      "round": 2,
+      "round_time": 2787,
+      "data": {
+        "pos": {
+          "x": 847,
+          "y": 618,
+          "z": 147
+        },
+        "life": 168,
+        "attacker_weapon": "nv4",
+        "attacker_pos": {
+          "x": 771,
+          "y": 742,
+          "z": 63
+        },
+        "attacker_life": 181,
+        "attacker_weapon_class": "ar",
+        "attacker_team": 1,
+        "attacker_id": "SLASHER",
+        "id": "SCUMP",
+        "kill_distance": 145.437,
+        "means_of_death": "rifle_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "death",
+      "time": 6048,
+      "round": 2,
+      "round_time": 2798,
+      "data": {
+        "pos": {
+          "x": 784,
+          "y": 725,
+          "z": 176
+        },
+        "life": 181,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 795,
+          "y": 695,
+          "z": 260
+        },
+        "attacker_life": 176,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "SLASHER",
+        "kill_distance": 31.953,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 6056,
+      "round": 2,
+      "round_time": 2806,
+      "data": {
+        "pos": {
+          "x": 764,
+          "y": 296,
+          "z": 0
+        },
+        "life": 182,
+        "team": 1,
+        "id": "APATHY"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 6061,
+      "round": 2,
+      "round_time": 2811,
+      "data": {
+        "pos": {
+          "x": 764,
+          "y": 296,
+          "z": 0
+        },
+        "life": 183,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "death",
+      "time": 6090,
+      "round": 2,
+      "round_time": 2840,
+      "data": {
+        "pos": {
+          "x": 770,
+          "y": 431,
+          "z": 98
+        },
+        "life": 178,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 735,
+          "y": 426,
+          "z": 0
+        },
+        "attacker_life": 183,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 1,
+        "attacker_id": "JOHN",
+        "id": "CRIMSIX",
+        "kill_distance": 35.355,
+        "means_of_death": "pistol_bullet",
+        "team": 2
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 6094,
+      "round": 2,
+      "round_time": 2844,
+      "data": {
+        "pos": {
+          "x": 764,
+          "y": 296,
+          "z": 0
+        },
+        "life": 184,
+        "team": 1,
+        "id": "JKAP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 6106,
+      "round": 2,
+      "round_time": 2856,
+      "data": {
+        "pos": {
+          "x": 302,
+          "y": 204,
+          "z": 55
+        },
+        "life": 185,
+        "team": 2,
+        "id": "SCUMP"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 6121,
+      "round": 2,
+      "round_time": 2871,
+      "data": {
+        "pos": {
+          "x": 409,
+          "y": 686,
+          "z": -40
+        },
+        "life": 186,
+        "team": 1,
+        "id": "SLASHER"
+      }
+    },
+    {
+      "type": "death",
+      "time": 6128,
+      "round": 2,
+      "round_time": 2878,
+      "data": {
+        "pos": {
+          "x": 836,
+          "y": 526,
+          "z": 0
+        },
+        "life": 183,
+        "attacker_weapon": "erad",
+        "attacker_pos": {
+          "x": 839,
+          "y": 564,
+          "z": 210
+        },
+        "attacker_life": 176,
+        "attacker_weapon_class": "smg",
+        "attacker_team": 2,
+        "attacker_id": "KARMA",
+        "id": "JOHN",
+        "kill_distance": 38.118,
+        "means_of_death": "pistol_bullet",
+        "team": 1
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 6164,
+      "round": 2,
+      "round_time": 2914,
+      "data": {
+        "pos": {
+          "x": 295,
+          "y": 207,
+          "z": 55
+        },
+        "life": 187,
+        "team": 2,
+        "id": "CRIMSIX"
+      }
+    },
+    {
+      "type": "spawn",
+      "time": 6200,
+      "round": 2,
+      "round_time": 2950,
+      "data": {
+        "pos": {
+          "x": 409,
+          "y": 694,
+          "z": -40
+        },
+        "life": 188,
+        "team": 1,
+        "id": "JOHN"
+      }
+    },
+    {
+      "type": "roundend",
+      "time": 6200,
+      "round": 2,
+      "round_time": 2950,
+      "data": {
+        "score2": 0,
+        "score1": 0
+      }
+    }
+  ]
+}
