@@ -1,8 +1,16 @@
 # The Data
 
-Call of Duty World League data:
+Call of Duty World League data.
+
+## Tabular Data
+
+Tabular data is simply per-player per-game stats for every game in the tournament (aka 1 row per player-game).
 
 * [data-2017-08-13-champs.csv](data-2017-08-13-champs.csv) - 2017 CWL Championships played in Orlando, FL from Aug 9 - Aug 13
+
+## Evented Data
+
+Evented data is provided as nested json, and includes events such as individual kills and spawn events.  See [Evented](evented) for details.
 
 ## Definitions
 
@@ -11,7 +19,7 @@ Some definitions:
  * Basic Stats - simple gameplay counting stats (starting at 0 and going up), such as `kills`, `deaths`, `hill time`, `bomb defuses`, `firstbloods`, ...
  * Derived Stats - stats computed from other basic stats, such as `k/d` (`kills` divided by `deaths`), `k per 10min` (`kills` divided by `duration` per 10 minutes), `firstblood %` (`firstbloods` divided by `snd rounds`), ...
  * Aggregate Stats - basic stats summed over a certain period of time (series, tournament, season) then normalized per game to allow player vs player comparisons, such as `season k/d`, `kills per game`, `plants per round`, `points per game`, ...
- * Advanced Stats (aka sabermetrics) - complex derived stats that *best* describe player performance and/or enable *better* player vs player comparisons, such as `QBR` from american football, `WAR` and `OPS+` from baseball, `PER` in basketball, ...
+ * Advanced Stats (aka Sabermetrics) - complex derived stats that *best* describe player performance and/or enable *better* player vs player comparisons, such as `QBR` from american football, `WAR` and `OPS+` from baseball, `PER` in basketball, ...
 
 For Call of Duty, everything from basic stats to advanced stats is under active investigation.  What stats work best when?  What stats are best when comparing players, when comparing teams?  What stats best predict future performance?
 
@@ -28,6 +36,7 @@ The basic and derived stats found in the data files (aka the columns):
  * `team` - the team
  * `player` - the player
  * `win?` - `W` if the player won the game, otherwise `L`
+ * `score` - the team's score in the game
  * `kills` - kills *(for the player)*
  * `deaths` - deaths
  * `+/-` - plus-minus (derived, `kills` minus `deaths`)
@@ -37,7 +46,7 @@ The basic and derived stats found in the data files (aka the columns):
  * `assists` - assists
  * `headshots` - kills via headshot
  * `suicides` - kills from the environment (aka falling off the map)
- * `team kills` - killing
+ * `team kills` - friendly fire kills (aka killing a player on your own team)
  * `hits` - hits from a gun
  * `shots` - shots fired from a gun
  * `accuracy (%)` - hits per shot as a percentage (dervied)
@@ -50,11 +59,12 @@ The basic and derived stats found in the data files (aka the columns):
  * `hill time (s)` - HP hill time in seconds
  * `hill captures` - HP hill captures
  * `hill defends` - HP hill defends
+ * `snd rounds` - SND rounds
  * `snd firstbloods` - SND first kill of the round
  * `bomb pickups` - SND bomb pickups
  * `bomb plants` - SND bomb plants
  * `bomb defuses` - SND bomb defuses
- * `bomb sneak defuses` - SND bomb sneak defuses (defuse completed while opponents still alive)
+ * `bomb sneak defuses` - SND bomb sneak defuses (defuse completed while at least one opponent is still alive)
  * `uplink dunks` - UPL dunks
  * `uplink throws` - UPL throws
  * `uplink points` - UPL points (derived, `dunks` times 2 plus `throws`)
