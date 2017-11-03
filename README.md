@@ -4,8 +4,6 @@ This is the public release of data from the Call of Duty World League.  The firs
 
 ## The Data
 
-The first data release is simply per-player per-game stats for every game in the tournament.
-
 Data from the following tournaments is available (see [Data](data)):
 
 * 2017 CWL Champs - Aug 9-13
