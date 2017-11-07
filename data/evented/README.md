@@ -35,7 +35,7 @@ Here are a few example evented data files (CWL Champs 2017 Grand Finals, Optic G
     * `round_scores` - the list of team score in each round (or hill rotation if `hp`)
     * `side` - the side (`home` or `away`)
  * `players` - the list of players
-    * see [Data](data#the-stats)...player stats are identical to the tabular stats, _mostly_
+    * see [Data](../data#the-stats)...player stats are identical to the tabular stats, _mostly_
  * `events` - the list of events
     * `type` - the type of event (`roundstart`, `roundend`, `spawn`, `death`)
     * `time` - the relative time from match start of this event (somewhat confusingly games don't always _begin_ exactly at match start)
