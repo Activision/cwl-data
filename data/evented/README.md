@@ -33,6 +33,7 @@ Here are a few example evented data files (CWL Champs 2017 Grand Finals, Optic G
     * `score` - the score
     * `is_victor` - is this team the winner? (`true` if they won, otherwise `false`)
     * `round_scores` - the list of team score in each round (or hill rotation if `hp`)
+    * `side` - the side (`home` or `away`)
  * `players` - the list of players
     * see [Data](data#the-stats)...player stats are identical to the tabular stats, _mostly_
  * `events` - the list of events
@@ -44,11 +45,9 @@ Here are a few example evented data files (CWL Champs 2017 Grand Finals, Optic G
        * `score1` - (only for `roundend`) the score at the end of the round for team 1
        * `score2` - (only for `roundend`) the score at the end of the round for team 2
        * `id` - (for `spawn` and `death`) the player
-       * `team` - (for `spawn` and `death`) the player's team index
        * `life` - (for `spawn` and `death`) the unique spawn index
        * `pos` - (for `spawn` and `death`) the player's location in x,y,z (in game units)
        * `attacker_id` - (only for `death`) the attacker
-       * `attacker_team` - (only for `death`) the attacker's team index
        * `attacker_life` - (only for `death`) the attacker's unique spawn index
        * `attacker_weapon` - (only for `death`) the attacker's weapon
        * `attacker_weapon_class` - (only for `death`) the attacker's weapon class (`ar`, `smg`, ...)
