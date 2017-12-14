@@ -9,6 +9,11 @@ Data from the following tournaments is available (see [Data](data)):
 * 2017 CWL Champs - Aug 9-13, 2017
 
 
+## How do we get it? Where does it come from?
+
+Data is captured live during Call of Duty World League tournaments directly from the game host console.  It is cleaned, validated for correctness, and processed into a useable format.  Exports in both [tabular](data#tabular-data) and [structured](data#structured-data) format are published here.
+
+
 ## Collaboration
 
 Releasing the data is just the first step.  We hope to inspire research into player performance and the creation of new more predictive stats for not just Call of Duty, but any FPS esport.  We look forward to seeing what the community can discover.
