@@ -8,9 +8,9 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
 
 * [data-2017-08-13-champs.csv](data-2017-08-13-champs.csv) - 2017 CWL Championships played in Orlando, FL from Aug 9 - Aug 13
 
-## Evented Data
+## Structured Data
 
-Evented data is provided as nested json, and includes events such as individual kills and spawn events.  See [Evented](evented) for details.
+Structured data is provided as nested json per game, where each game includes individual game events such as spawns and deaths.  See [Structured](structured) for details.
 
 ## Definitions
 
@@ -19,7 +19,7 @@ Some definitions:
  * Basic Stats - simple gameplay counting stats (starting at 0 and going up), such as `kills`, `deaths`, `hill time`, `bomb defuses`, `firstbloods`, ...
  * Derived Stats - stats computed from other basic stats, such as `k/d` (`kills` divided by `deaths`), `k per 10min` (`kills` divided by `duration` per 10 minutes), `firstblood %` (`firstbloods` divided by `snd rounds`), ...
  * Aggregate Stats - basic stats summed over a certain period of time (series, tournament, season) then normalized per game to allow player vs player comparisons, such as `season k/d`, `kills per game`, `plants per round`, `points per game`, ...
- * Advanced Stats (aka Sabermetrics) - complex derived stats that *best* describe player performance and/or enable *better* player vs player comparisons, such as `QBR` from american football, `WAR` and `OPS+` from baseball, `PER` in basketball, ...
+ * Advanced Stats (aka Sabermetrics) - complex derived stats that *best* describe player performance and/or enable *better* player vs player comparisons, such as `QBR` from football (american), `WAR` and `OPS+` from baseball, `PER` in basketball, ...
 
 For Call of Duty, everything from basic stats to advanced stats is under active investigation.  What stats work best when?  What stats are best when comparing players, when comparing teams?  What stats best predict future performance?
 
