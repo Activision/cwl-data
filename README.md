@@ -7,6 +7,7 @@ This is the public release of data from the Call of Duty World League.  The firs
 Data from the following tournaments is available (see [Data](data)):
 
 * 2017 CWL Champs - Aug 9-13, 2017
+* 2018 CWL Dallas - Dec 8-10, 2017
 
 
 ## How do we get it? Where does it come from?
