@@ -6,7 +6,8 @@ Call of Duty World League data.
 
 Tabular data is simply per-player per-game stats for every game in the tournament (aka 1 row per player-game).
 
-* [data-2017-08-13-champs.csv](data-2017-08-13-champs.csv) - 2017 CWL Championships played in Orlando, FL from Aug 9 - Aug 13
+* [data-2017-08-13-champs.csv](data-2017-08-13-champs.csv) - 2017 CWL Championships - Orlando, FL - Aug 9-13
+* [data-2017-12-10-dallas.csv](data-2017-12-10-dallas.csv) - 2018 CWL Dallas - Dallas, TX - Dec 8-10, 2017
 
 ## Structured Data
 
@@ -37,7 +38,7 @@ The basic and derived stats found in the data files (aka the columns):
  * `player` - the player
  * `win?` - `W` if the player won the game, otherwise `L`
  * `score` - the team's score in the game
- * `kills` - kills *(for the player)*
+ * `kills` - kills *for the player*
  * `deaths` - deaths
  * `+/-` - plus-minus (derived, `kills` minus `deaths`)
  * `k/d` - kill-death ratio (derived, `kills` divided by `deaths`)
@@ -52,22 +53,30 @@ The basic and derived stats found in the data files (aka the columns):
  * `accuracy (%)` - hits per shot as a percentage (dervied)
  * `avg kill dist (m)` - average kill distance
  * `fave weapon` - most used primary gun per loadout
- * `fave rig` - most used rig per loadout
- * `fave payload` - most used rig payload per loadout
- * `fave trait` - most used rig trait per loadout
+ * `fave rig` - most used rig per loadout (IW)
+ * `fave payload` - most used rig payload per loadout (IW)
+ * `fave trait` - most used rig trait per loadout (IW)
+ * `fave division` - most used division per loadout (WW2)
+ * `fave training` - most used basic training per loadout (WW2)
  * `fave scorestreaks` - top 3 scorestreaks used per loadout
  * `hill time (s)` - HP hill time in seconds
  * `hill captures` - HP hill captures
  * `hill defends` - HP hill defends
  * `snd rounds` - SND rounds
  * `snd firstbloods` - SND first kill of the round
+ * `snd firstdeaths` - SND first death of the round (WW2)
  * `bomb pickups` - SND bomb pickups
  * `bomb plants` - SND bomb plants
  * `bomb defuses` - SND bomb defuses
- * `bomb sneak defuses` - SND bomb sneak defuses (defuse completed while at least one opponent is still alive)
+ * `bomb sneak defuses` - SND bomb sneak defuses (aka ninja defuse, when defuse completed with at least one opponent alive)
  * `uplink dunks` - UPL dunks
  * `uplink throws` - UPL throws
  * `uplink points` - UPL points (derived, `dunks` times 2 plus `throws`)
+ * `ctf captures` - CTF captures
+ * `ctf returns` - CTF returns
+ * `ctf pickups` - CTF pickups (anywhere, not just from opponent base)
+ * `ctf defends` - CTF defends (aka killing an oppenent *near* your flag)
+ * `ctf kill carriers` - CTF kill carriers (aka killing an opposing flag carrier)
  * `2-piece` - 2 kills by the player within 5 seconds without dying
  * `3-piece` - 3 kills by the player within 10 seconds without dying
  * `4-piece` - 4 kills by the player within 15 seconds without dying
@@ -80,11 +89,16 @@ The basic and derived stats found in the data files (aka the columns):
  * `4+-streak` - 4 or more kills without dying
  * `scorestreaks earned` - number of scorestreaks earned
  * `scorestreaks used` - number of scorestreaks used
- * `payloads earned` - number of payload abilities earned
- * `payloads used` - number of payload abilities used
+ * `payloads earned` - number of payload abilities earned (IW)
+ * `payloads used` - number of payload abilities used (IW)
 
+Where some stats 
 
 ## Missing Data
 
  * 2017 CWL Championships
-    - 297 of 298 games have complete data, but a hardware failure during a game between Envyus and Ghost Gaming (Winner's Quarterfinals - Map 2 - Search & Destory on Retaliation) resulted in partial data loss.  The failure occured with Envyus leading 4-0, resulting in data from the first 4 rounds to be lost.  Video replay allowed for manual recovery of all basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...), but some more complex stats were unrecoverable.
+    - 297 of 298 games have complete data
+    - hardware failure during a game between Envyus and Ghost Gaming (Winner's Quarterfinals - Map 2 - Search & Destory on Retaliation) resulted in partial data loss.  The failure occured with Envyus leading 4-0, resulting in data from the first 4 rounds to be lost.  Video replay allowed for manual recovery of all basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...), but some more complex stats were unrecoverable.
+ * 2018 CWL Dallas (played Dec 8-10, 2017)
+   - 269 of 269 games for the *elite* teams have data (all teams in pool play, plus all teams in both championship brackets)
+   - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data IS included.
