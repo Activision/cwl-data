@@ -4,15 +4,25 @@ Structured data is provided as nested json per game.  Most importantly, the data
 
 ## Data
 
-* [structured-2017-08-13-champs.tar.gz](structured-2017-08-13-champs.tar.gz) - structured 2017 CWL Championships data
+ * 2017
+    * CWL Champs - Orlando, FL - Aug 9-13, 2017 - [structured-2017-08-13-champs.tar.gz](structured-2017-08-13-champs.tar.gz)
+ * 2018
+    * CWL Dallas - Dallas, TX - Dec 8-10, 2017 - [structured-2017-12-10-dallas.tar.gz](structured-2017-12-10-dallas.tar.gz)
+
 
 ## Examples
 
-Here are a few example structured data files (CWL Champs 2017 Grand Finals, Optic Gaming vs Team Envyus):
+Here are a few example structured data files:
 
- * `hp` - [structured-1502655504-A23F8504-146F-11D3-6C6E-0CFE454272F2.json](structured-1502655504-A23F8504-146F-11D3-6C6E-0CFE454272F2.json)
- * `snd` - [structured-1502656269-A850EC88-1471-11D3-6C6E-0CFE454272F2.json](structured-1502656269-A850EC88-1471-11D3-6C6E-0CFE454272F2.json)
- * `upl` - [structured-1502657302-F28A9CF2-1473-11D3-6C6E-0CFE454272F2.json](structured-1502657302-F28A9CF2-1473-11D3-6C6E-0CFE454272F2.json)
+ * 2017 - CWL Champs 2017, Optic Gaming vs Team Envyus, Grand Finals:
+    * `hp` - [structured-1502655504-A23F8504-146F-11D3-6C6E-0CFE454272F2.json](structured-1502655504-A23F8504-146F-11D3-6C6E-0CFE454272F2.json)
+    * `snd` - [structured-1502656269-A850EC88-1471-11D3-6C6E-0CFE454272F2.json](structured-1502656269-A850EC88-1471-11D3-6C6E-0CFE454272F2.json)
+    * `upl` - [structured-1502657302-F28A9CF2-1473-11D3-6C6E-0CFE454272F2.json](structured-1502657302-F28A9CF2-1473-11D3-6C6E-0CFE454272F2.json)
+ * 2018 - CWL Dallas 2018, Optic Gaming vs Team Kaliber, Finals:
+    * `hp` - [structured-1512958291-be650c82-3e4c-5013-a325-b872e52d6347.json](structured-1512958291-be650c82-3e4c-5013-a325-b872e52d6347.json)
+    * `snd` - [structured-1512959445-5dbb69ba-3fa7-5bce-8266-8cbf46f1dabd.json](structured-1512959445-5dbb69ba-3fa7-5bce-8266-8cbf46f1dabd.json)
+    * `ctf` - [structured-1512960410-f77faded-71d4-5b9a-ab0d-1ea3ea546ee2.json](structured-1512960410-f77faded-71d4-5b9a-ab0d-1ea3ea546ee2.json)
+
 
 ## The Stats
 
@@ -38,24 +48,29 @@ Here are a few example structured data files (CWL Champs 2017 Grand Finals, Opti
     * see [Data](../../data#the-stats)...player stats are identical to the tabular stats, _mostly_
  * `events` - the list of events
     * `type` - the type of event (`roundstart`, `roundend`, `spawn`, `death`)
-    * `time` - the relative time from match start of this event (somewhat confusingly games don't always _begin_ exactly at match start)
-    * `round` - the round of this event1,
-    * `round_time` - the relative time from round start of this event
+    * `time_ms` - the relative time from match start of this event (somewhat confusingly games don't always _begin_ exactly at match start)
+    * `round` - the round of this event,
+    * `round_time_ms` - the relative time from round start of this event
     * `data` - nested metadata for this event, depends on event `type`
        * `score1` - (only for `roundend`) the score at the end of the round for team 1
        * `score2` - (only for `roundend`) the score at the end of the round for team 2
        * `id` - (for `spawn` and `death`) the player
        * `life` - (for `spawn` and `death`) the unique spawn index
        * `pos` - (for `spawn` and `death`) the player's location in x,y,z (in game units)
-       * `attacker_id` - (only for `death`) the attacker
-       * `attacker_life` - (only for `death`) the attacker's unique spawn index
-       * `attacker_weapon` - (only for `death`) the attacker's weapon
-       * `attacker_weapon_class` - (only for `death`) the attacker's weapon class (`ar`, `smg`, ...)
-       * `attacker_pos` - (only for `death`) the attacker's location in x,y,z (in game units)
-       * `kill_distance` - (only for `death`) the distance of the kill (in game units)
-       * `means_of_death` - (only for `death`) the kind of kill
+       * `attacker` - (only for `death`)
+          * `id` - the attacker
+          * `life` - the attacker's unique spawn index
+          * `pos` - the attacker's location in x,y,z (in game units)
+          * `weapon` - the attacker's primary weapon
+          * `kill_distance` - the distance of the kill (in game units)
+          * `means_of_death` - the kind of kill
 
 
 ## Missing Data
 
- * `structured-1502548557-A10D2B1C-1377-11D3-2AD6-0CFE454272F2.json` - hardware failure during CWL Champs 2017 resulted in partial data loss for this game.  The failure occured with Envyus leading 4-0, resulting in all events from the first 4 rounds to be lost.  Basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...) were recovered manually via video replay.
+ * 2017
+    * CWL Champs (Aug 9-13, 2017)
+       - `structured-1502548557-A10D2B1C-1377-11D3-2AD6-0CFE454272F2.json` - hardware failure during CWL Champs 2017 resulted in partial data loss for this game.  The failure occured with Envyus leading 4-0, resulting in all events from the first 4 rounds to be lost.  Basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...) were recovered manually via video replay.
+ * 2018
+    * CWL Dallas (Dec 8-10, 2017)
+       - `structured-1512852903-3e527faf-aba5-58a5-a92d-d17144eee655.json` - a forfeit by Rise Nation in game 1 of their CWL Dallas pool play matchup against Red Reserve due to use of a prohibited scorestreak, but this data **IS** included for completeness.

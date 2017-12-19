@@ -6,8 +6,10 @@ Call of Duty World League data.
 
 Tabular data is simply per-player per-game stats for every game in the tournament (aka 1 row per player-game).
 
-* [data-2017-08-13-champs.csv](data-2017-08-13-champs.csv) - 2017 CWL Championships - Orlando, FL - Aug 9-13
-* [data-2017-12-10-dallas.csv](data-2017-12-10-dallas.csv) - 2018 CWL Dallas - Dallas, TX - Dec 8-10, 2017
+ * 2017
+    * CWL Champs - Orlando, FL - Aug 9-13, 2017 - [data-2017-08-13-champs.csv](data-2017-08-13-champs.csv)
+ * 2018
+    * CWL Dallas - Dallas, TX - Dec 8-10, 2017 - [data-2017-12-10-dallas.csv](data-2017-12-10-dallas.csv)
 
 ## Structured Data
 
@@ -26,7 +28,7 @@ For Call of Duty, everything from basic stats to advanced stats is under active 
 
 ## The Stats
 
-The basic and derived stats found in the data files (aka the columns):
+The basic and derived stats found in the data (aka the columns in the tabular data files):
 
  * `match id` - unique game id
  * `series id` - unique series id
@@ -69,14 +71,14 @@ The basic and derived stats found in the data files (aka the columns):
  * `bomb plants` - SND bomb plants
  * `bomb defuses` - SND bomb defuses
  * `bomb sneak defuses` - SND bomb sneak defuses (aka ninja defuse, when defuse completed with at least one opponent alive)
- * `uplink dunks` - UPL dunks
- * `uplink throws` - UPL throws
- * `uplink points` - UPL points (derived, `dunks` times 2 plus `throws`)
- * `ctf captures` - CTF captures
- * `ctf returns` - CTF returns
- * `ctf pickups` - CTF pickups (anywhere, not just from opponent base)
- * `ctf defends` - CTF defends (aka killing an oppenent *near* your flag)
- * `ctf kill carriers` - CTF kill carriers (aka killing an opposing flag carrier)
+ * `uplink dunks` - UPL dunks (IW)
+ * `uplink throws` - UPL throws (IW)
+ * `uplink points` - UPL points (derived, `dunks` times 2 plus `throws`, IW)
+ * `ctf captures` - CTF captures (WW2)
+ * `ctf returns` - CTF returns (WW2)
+ * `ctf pickups` - CTF pickups (anywhere, not just from opponent base, WW2)
+ * `ctf defends` - CTF defends (aka killing an oppenent *near* your flag, WW2)
+ * `ctf kill carriers` - CTF kill carriers (aka killing an opposing flag carrier, WW2)
  * `2-piece` - 2 kills by the player within 5 seconds without dying
  * `3-piece` - 3 kills by the player within 10 seconds without dying
  * `4-piece` - 4 kills by the player within 15 seconds without dying
@@ -92,13 +94,15 @@ The basic and derived stats found in the data files (aka the columns):
  * `payloads earned` - number of payload abilities earned (IW)
  * `payloads used` - number of payload abilities used (IW)
 
-Where some stats 
+Note: not all stats are present in all seasons or tournaments of Call of Duty World League as the rules can and do change.
 
 ## Missing Data
 
- * 2017 CWL Championships
-    - 297 of 298 games have complete data
-    - hardware failure during a game between Envyus and Ghost Gaming (Winner's Quarterfinals - Map 2 - Search & Destory on Retaliation) resulted in partial data loss.  The failure occured with Envyus leading 4-0, resulting in data from the first 4 rounds to be lost.  Video replay allowed for manual recovery of all basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...), but some more complex stats were unrecoverable.
- * 2018 CWL Dallas (played Dec 8-10, 2017)
-   - 269 of 269 games for the *elite* teams have data (all teams in pool play, plus all teams in both championship brackets)
-   - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data IS included.
+ * 2017
+    * CWL Champs (Aug 9-13, 2017)
+       - 297 of 298 games have complete data
+       - hardware failure during a game between Envyus and Ghost Gaming (Winner's Quarterfinals - Map 2 - Search & Destory on Retaliation) resulted in partial data loss.  The failure occured with Envyus leading 4-0, resulting in data from the first 4 rounds to be lost.  Video replay allowed for manual recovery of all basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...), but some more complex stats were unrecoverable.
+ * 2018
+    * CWL Dallas (Dec 8-10, 2017)
+       - 269 of 269 games for the *elite* teams have data (all teams in pool play, plus all teams in both championship brackets)
+       - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data IS included.
