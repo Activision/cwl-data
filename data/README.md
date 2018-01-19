@@ -10,6 +10,7 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
     * CWL Champs - Orlando, FL - Aug 9-13, 2017 - [data-2017-08-13-champs.csv](data-2017-08-13-champs.csv)
  * 2018
     * CWL Dallas - Dallas, TX - Dec 8-10, 2017 - [data-2017-12-10-dallas.csv](data-2017-12-10-dallas.csv)
+    * CWL New Orleans - New Orleans, LA - Jan 12-14, 2018 - [data-2018-01-14-neworleans.csv](data-2018-01-14-neworleans.csv)
 
 ## Structured Data
 
@@ -79,6 +80,7 @@ The basic and derived stats found in the data (aka the columns in the tabular da
  * `ctf pickups` - CTF pickups (anywhere, not just from opponent base, WW2)
  * `ctf defends` - CTF defends (aka killing an oppenent *near* your flag, WW2)
  * `ctf kill carriers` - CTF kill carriers (aka killing an opposing flag carrier, WW2)
+ * `ctf flag carry time (s)` - CTF flag carry time (WW2)
  * `2-piece` - 2 kills by the player within 5 seconds without dying
  * `3-piece` - 3 kills by the player within 10 seconds without dying
  * `4-piece` - 4 kills by the player within 15 seconds without dying
@@ -106,3 +108,5 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
     * CWL Dallas (Dec 8-10, 2017)
        - 269 of 269 games for the *elite* teams have data (all teams in pool play, plus all teams in both championship brackets)
        - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data IS included.
+    * CWL New Orleans (Jan 12-14, 2018)
+       - possible bug in scorestreaks earned/used? under investigation
