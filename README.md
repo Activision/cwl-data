@@ -10,6 +10,7 @@ Data from the following tournaments is available (see [Data](data)):
     * CWL Champs - Aug 9-13, 2017
  * 2018
     * CWL Dallas - Dec 8-10, 2017
+    * CWL New Orleans - Jan 12-14, 2018
 
 
 ## How do we get it? Where does it come from?
