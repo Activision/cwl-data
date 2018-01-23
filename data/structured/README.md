@@ -8,6 +8,7 @@ Structured data is provided as nested json per game.  Most importantly, the data
     * CWL Champs - Orlando, FL - Aug 9-13, 2017 - [structured-2017-08-13-champs.tar.gz](structured-2017-08-13-champs.tar.gz)
  * 2018
     * CWL Dallas - Dallas, TX - Dec 8-10, 2017 - [structured-2017-12-10-dallas.tar.gz](structured-2017-12-10-dallas.tar.gz)
+    * CWL New Orleans - New Orleans, LA - Jan 12-14, 2018 - [structured-2018-01-14-neworleans.tar.gz](structured-2018-01-14-neworleans.tar.gz)
 
 
 ## Examples
@@ -74,3 +75,5 @@ Here are a few example structured data files:
  * 2018
     * CWL Dallas (Dec 8-10, 2017)
        - `structured-1512852903-3e527faf-aba5-58a5-a92d-d17144eee655.json` - a forfeit by Rise Nation in game 1 of their CWL Dallas pool play matchup against Red Reserve due to use of a prohibited scorestreak, but this data **IS** included for completeness.
+    * CWL New Orleans (Jan 12-14, 2018)
+       - 279 or 279 *elite* games have data, added new `ctf_flag_carry_time_s` stat
