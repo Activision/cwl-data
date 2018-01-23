@@ -106,7 +106,8 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - hardware failure during a game between Envyus and Ghost Gaming (Winner's Quarterfinals - Map 2 - Search & Destory on Retaliation) resulted in partial data loss.  The failure occured with Envyus leading 4-0, resulting in data from the first 4 rounds to be lost.  Video replay allowed for manual recovery of all basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...), but some more complex stats were unrecoverable.
  * 2018
     * CWL Dallas (Dec 8-10, 2017)
-       - 269 of 269 games for the *elite* teams have data (all teams in pool play, plus all teams in both championship brackets)
+       - 269 of 269 *elite* games have data (all pool play, plus both champ brackets)
        - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data IS included.
     * CWL New Orleans (Jan 12-14, 2018)
-       - possible bug in scorestreaks earned/used? under investigation
+       - 279 or 279 *elite* games have data
+       - investigating possible bug in scorestreaks earned/used?
