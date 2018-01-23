@@ -30,7 +30,7 @@ In addition to the data release, we also include few open source tools for basic
 
 ## Questions?
 
-See [Issues](https://github.com/Activision/cwl-data/issues) if you have questions.
+Find a bug? Have a request? Create a new stat?  See [Issues](https://github.com/Activision/cwl-data/issues), and let us know.
 
 
 ## License
