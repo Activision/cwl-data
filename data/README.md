@@ -109,5 +109,5 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - 269 of 269 *elite* games have data (all pool play, plus both champ brackets)
        - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data IS included.
     * CWL New Orleans (Jan 12-14, 2018)
-       - 279 or 279 *elite* games have data
+       - 280 of 280 *elite* games have data, added new `ctf flag carry time (s)` stat
        - investigating possible bug in scorestreaks earned/used?

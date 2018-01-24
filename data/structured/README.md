@@ -76,4 +76,4 @@ Here are a few example structured data files:
     * CWL Dallas (Dec 8-10, 2017)
        - `structured-1512852903-3e527faf-aba5-58a5-a92d-d17144eee655.json` - a forfeit by Rise Nation in game 1 of their CWL Dallas pool play matchup against Red Reserve due to use of a prohibited scorestreak, but this data **IS** included for completeness.
     * CWL New Orleans (Jan 12-14, 2018)
-       - 279 or 279 *elite* games have data, added new `ctf_flag_carry_time_s` stat
+       - 280 of 280 *elite* games have data, added new `ctf_flag_carry_time_s` stat
