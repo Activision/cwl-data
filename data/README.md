@@ -11,6 +11,7 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
  * 2018
     * CWL Dallas - Dallas, TX - Dec 8-10, 2017 - [data-2017-12-10-dallas.csv](data-2017-12-10-dallas.csv)
     * CWL New Orleans - New Orleans, LA - Jan 12-14, 2018 - [data-2018-01-14-neworleans.csv](data-2018-01-14-neworleans.csv)
+    * CWL Pro League, Stage 1 - Columbus, OH - Jan 23-Apr 8, 2018 - [data-2018-04-08-proleague1.csv](data-2018-04-08-proleague1.csv)
 
 ## Structured Data
 
@@ -110,4 +111,6 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data IS included.
     * CWL New Orleans (Jan 12-14, 2018)
        - 280 of 280 *elite* games have data, added new `ctf flag carry time (s)` stat
-       - investigating possible bug in scorestreaks earned/used?
+       - flamethrower scorestreaks can be earned once, but "used" multiple times, fixing..
+    * CWL Pro League, Stage 1 (Jan 23-Apr 8, 2018)
+       - firstbloods/firstdeaths are not correctly reported in certain cases, fixing..

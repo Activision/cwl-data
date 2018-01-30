@@ -11,6 +11,7 @@ Data from the following tournaments is available (see [Data](data)):
  * 2018
     * CWL Dallas - Dec 8-10, 2017
     * CWL New Orleans - Jan 12-14, 2018
+    * CWL Pro League, Stage 1 - Jan 23-Apr 8, 2018
 
 
 ## How do we get it? Where does it come from?
