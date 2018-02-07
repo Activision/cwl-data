@@ -67,12 +67,16 @@ The basic and derived stats found in the data (aka the columns in the tabular da
  * `hill captures` - HP hill captures
  * `hill defends` - HP hill defends
  * `snd rounds` - SND rounds
- * `snd firstbloods` - SND first kill of the round
- * `snd firstdeaths` - SND first death of the round (WW2)
+ * `snd firstbloods` - SND first kill of the round (killing a teammate does *not* count as firstbloods)
+ * `snd firstdeaths` - SND first death of the round (WW2, being killed by a teammate *does* count as a firstdeath)
  * `bomb pickups` - SND bomb pickups
  * `bomb plants` - SND bomb plants
  * `bomb defuses` - SND bomb defuses
  * `bomb sneak defuses` - SND bomb sneak defuses (aka ninja defuse, when defuse completed with at least one opponent alive)
+ * `snd 1-kill round` - _exactly_ 1 kill in an SND round
+ * `snd 2-kill round` - 2 kills in an SND round
+ * `snd 3-kill round` - 3 kills in an SND round
+ * `snd 4-kill round` - 4 kills in an SND round (aka an Ace)
  * `uplink dunks` - UPL dunks (IW)
  * `uplink throws` - UPL throws (IW)
  * `uplink points` - UPL points (derived, `dunks` times 2 plus `throws`, IW)
@@ -82,18 +86,21 @@ The basic and derived stats found in the data (aka the columns in the tabular da
  * `ctf defends` - CTF defends (aka killing an oppenent *near* your flag, WW2)
  * `ctf kill carriers` - CTF kill carriers (aka killing an opposing flag carrier, WW2)
  * `ctf flag carry time (s)` - CTF flag carry time (WW2)
- * `2-piece` - 2 kills by the player within 5 seconds without dying
- * `3-piece` - 3 kills by the player within 10 seconds without dying
- * `4-piece` - 4 kills by the player within 15 seconds without dying
- * `multikills` - total multikills (derived, sum of `2-piece` plus `3-piece` plus `4-piece`)
- * `4-streak` - 4 kills without dying (no time restriction)
+ * `2-piece` - 2 kills by the player without dying, separated by <= 5 seconds (aka 2 kills in 5s max)
+ * `3-piece` - 3 kills by the player without dying, each kill separated by <= 5 seconds (aka 3 kills in 10s max)
+ * `4-piece` - 4 kills by the player without dying, each kill separated by <= 5 seconds (aka 4 kills in 15s max)
+ * `multikills` - total multikills (IW, derived, sum of `2-piece` plus `3-piece` plus `4-piece`)
+ * `4-streak` - 4 kills without dying (within a single round, otherwise no time restriction)
  * `5-streak` - 5 kills without dying
  * `6-streak` - 6 kills without dying
  * `7-streak` - 7 kills without dying
  * `8+-streak` - 8 or more kills without dying
- * `4+-streak` - 4 or more kills without dying
+ * `4+-streak` - 4 or more kills without dying (IW)
  * `scorestreaks earned` - number of scorestreaks earned
  * `scorestreaks used` - number of scorestreaks used
+ * `scorestreaks deployed` - number of times a scorestreak is deployed (WW2, for Flamethrower and other multi-use scorestreaks)
+ * `scorestreaks kills` - kills with a scorestreak (WW2)
+ * `scorestreaks assists` - assists with a scorestreak (WW2)
  * `payloads earned` - number of payload abilities earned (IW)
  * `payloads used` - number of payload abilities used (IW)
 
@@ -113,4 +120,4 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - 280 of 280 *elite* games have data, added new `ctf flag carry time (s)` stat
        - flamethrower scorestreaks can be earned once, but "used" multiple times, fixing..
     * CWL Pro League, Stage 1 (Jan 23-Apr 8, 2018)
-       - firstbloods/firstdeaths are not correctly reported in certain cases, fixing..
+       - only week 1-2 so far
