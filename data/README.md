@@ -55,6 +55,9 @@ The basic and derived stats found in the data (aka the columns in the tabular da
  * `hits` - hits from a gun
  * `shots` - shots fired from a gun
  * `accuracy (%)` - hits per shot as a percentage (dervied)
+ * `num lives` - total number of lives (WW2)
+ * `time alive (s)` - total time alive (in s) (WW2)
+ * `avg time per life (s)` - average time alive per life (WW2, derived, `time alive` divided by `num lives`)
  * `avg kill dist (m)` - average kill distance
  * `fave weapon` - most used primary gun per loadout
  * `fave rig` - most used rig per loadout (IW)
@@ -69,6 +72,7 @@ The basic and derived stats found in the data (aka the columns in the tabular da
  * `snd rounds` - SND rounds
  * `snd firstbloods` - SND first kill of the round (killing a teammate does *not* count as firstbloods)
  * `snd firstdeaths` - SND first death of the round (WW2, being killed by a teammate *does* count as a firstdeath)
+ * `snd survives` - SND alive at end of the round (WW2)
  * `bomb pickups` - SND bomb pickups
  * `bomb plants` - SND bomb plants
  * `bomb defuses` - SND bomb defuses
