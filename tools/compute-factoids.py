@@ -30,39 +30,60 @@
 
 from helper import load_csv, sort_n_rank
 
-
-def find_totals(rows):
-    """Compute stat totals by summing over the entire tournament."""
-    # stats to sum
-    totals = {
-        'kills': 0, 'deaths': 0, 'assists': 0,
-        'hits': 0, 'shots': 0,
-        'hill time (s)': 0,
-        'bomb plants': 0, 'bomb defuses': 0,
-        'uplink dunks': 0, 'uplink throws': 0, 'uplink points': 0
-    }
-    # sum for all games in the tournament
-    for row in rows:
-        for k in totals:
-            totals[k] += int(row[k])
-
-    return totals
+import argparse
+import re
 
 
-def find_records_per_mode_n_map(rows):
-    """Search the entire tournament for single-game high scores across various stats."""
-    # the stats for each result (must be superset of stats below)
-    stats = ['player', 'team', 'series id', 'kills', 'deaths', 'k/d', 'hill time (s)', 'snd firstbloods', 'uplink points']
+TOTALS = {
+    'iw': ['kills', 'deaths', 'assists', 'hits', 'shots', 'hill time (s)', 'bomb plants', 'bomb defuses', 'uplink dunks', 'uplink throws', 'uplink points'],
+    'ww2': ['kills', 'deaths', 'assists', 'hits', 'shots', 'hill time (s)', 'bomb plants', 'bomb defuses', 'ctf captures', 'ctf returns', 'ctf pickups', 'ctf defends', 'ctf kill carriers', 'ctf flag carry time (s)']
+}
 
-    # for each stat, find all results in the tournament
-    records = {}
-    for stat in [
+STATS = {
+    'iw': [
+        {'stat': 'kills'},
+        {'stat': 'k/d'}, 
+        {'stat': 'hill time (s)', 'mode': 'Hardpoint'},
+        {'stat': 'snd firstbloods', 'mode': 'Search & Destroy'},
+        {'stat': 'uplink points', 'mode': 'Uplink'}
+    ],
+    'ww2': [
         {'stat': 'kills'},
         {'stat': 'k/d'},
         {'stat': 'hill time (s)', 'mode': 'Hardpoint'},
         {'stat': 'snd firstbloods', 'mode': 'Search & Destroy'},
-        {'stat': 'uplink points', 'mode': 'Uplink'}
-    ]:
+        {'stat': 'ctf captures', 'mode': 'Capture The Flag'}
+    ]
+}
+
+
+def find_totals(rows, title):
+    """Compute stat totals by summing over the entire tournament."""
+    # stats to sum
+    totals = {stat:0 for stat in TOTALS[title]}
+    for row in rows:
+        for k in totals:
+            # check if stat is float or int
+            if re.findall("\d+\.\d+", row[k]):
+                totals[k] += float(row[k])
+            else:
+                totals[k] += int(row[k])
+
+    return totals
+
+
+def find_records_per_mode_n_map(rows, title):
+    """Search the entire tournament for single-game high scores across various stats."""
+    # the stats for each result (must be superset of stats below)
+    stats = ['player', 'team', 'series id', 'kills', 'deaths', 'k/d', 'hill time (s)', 'snd firstbloods']
+    if title == 'ww2':
+        stats.append('ctf captures')
+    else:
+        stats.append('uplink points')
+
+    # for each stat, find all results in the tournament
+    records = {}
+    for stat in STATS[title]:
         for row in rows:
             k = (stat['stat'], row['mode'], row['map'])
             if 'mode' not in stat or stat['mode'] == row['mode']:
@@ -85,12 +106,34 @@ def find_records_per_mode_n_map(rows):
     return sorted(out, key=lambda x: x['title'])
 
 
+def parse_cmd_args():
+    """Parses command line arguments."""
+    # create parser
+    help_desc = 'Compute total stats and various single-game high score records.'
+    parser = argparse.ArgumentParser(description=help_desc)
+
+    # -argument- [optional] by default, script will compute factoids for COD:IW
+    parser.add_argument('--title', metavar='TITLE',
+                        help='sets COD title to compute factoids for')
+
+    # -argument- [optional]
+    parser.add_argument('--path', metavar='PATH',
+                        help='imports .csv data from input path')
+
+    # parse command line arguments
+    return vars(parser.parse_args())
+
+
 if __name__ == '__main__':
+    args = parse_cmd_args()
+    title = 'iw' if not args['title'] else args['title']
+    path = '../data/data-2017-08-13-champs.csv' if not args['path'] else args['path']
+
     print('Factoids:')
 
-    rows = load_csv('../data/data-2017-08-13-champs.csv')
-    totals = find_totals(rows)
-    records = find_records_per_mode_n_map(rows)
+    rows = load_csv(path)
+    totals = find_totals(rows, title)
+    records = find_records_per_mode_n_map(rows, title)
     print('  loaded {} rows, {:.0f} games'.format(len(rows), len(rows)/8))
 
     print('\nTotals:')
