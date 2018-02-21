@@ -52,6 +52,8 @@ The basic and derived stats found in the data (aka the columns in the tabular da
  * `headshots` - kills via headshot
  * `suicides` - kills from the environment (aka falling off the map)
  * `team kills` - friendly fire kills (aka killing a player on your own team)
+ * `team deaths` - friendly fire deaths (aka getting killed by your own team)
+ * `kills (stayed alive)` - kills where the attacker is not subsequently killed within the next 5 seconds
  * `hits` - hits from a gun
  * `shots` - shots fired from a gun
  * `accuracy (%)` - hits per shot as a percentage (dervied)
@@ -121,7 +123,7 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - 269 of 269 *elite* games have data (all pool play, plus both champ brackets)
        - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data IS included.
     * CWL New Orleans (Jan 12-14, 2018)
-       - 280 of 280 *elite* games have data, added new `ctf flag carry time (s)` stat
-       - flamethrower scorestreaks can be earned once, but "used" multiple times, fixing..
+       - 280 of 280 *elite* games have data
     * CWL Pro League, Stage 1 (Jan 23-Apr 8, 2018)
-       - only week 1-2 so far
+       - only weeks 1-4 so far
+       - data server failure on Thurs, Feb 15 (Week 4) caused loss of the last two games from Splyce versus Evil Geniuses
