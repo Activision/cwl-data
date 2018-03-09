@@ -125,5 +125,6 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
     * CWL New Orleans (Jan 12-14, 2018)
        - 280 of 280 *elite* games have data
     * CWL Pro League, Stage 1 (Jan 23-Apr 8, 2018)
-       - only weeks 1-4 so far
-       - data server failure on Thurs, Feb 15 (Week 4) caused loss of the last two games from Splyce versus Evil Geniuses
+       - only weeks 1-6 so far
+       - week 4 - data server failure on Thurs, Feb 15 caused the loss of the last two games from Splyce versus Evil Geniuses
+       - week 6 - data server failure on Wed, Feb 28 caused the loss of CTF from Echo Fox versus Red Reserve
