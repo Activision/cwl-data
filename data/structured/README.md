@@ -2,14 +2,6 @@
 
 Structured data is provided as nested json per game.  Most importantly, the data contains individual intra-game events such as spawns and deaths.
 
-## Data
-
- * 2017
-    * CWL Champs - Orlando, FL - Aug 9-13, 2017 - [structured-2017-08-13-champs.tar.gz](structured-2017-08-13-champs.tar.gz)
- * 2018
-    * CWL Dallas - Dallas, TX - Dec 8-10, 2017 - [structured-2017-12-10-dallas.tar.gz](structured-2017-12-10-dallas.tar.gz)
-    * CWL New Orleans - New Orleans, LA - Jan 12-14, 2018 - [structured-2018-01-14-neworleans.tar.gz](structured-2018-01-14-neworleans.tar.gz)
-
 
 ## Examples
 
@@ -69,11 +61,4 @@ Here are a few example structured data files:
 
 ## Missing Data
 
- * 2017
-    * CWL Champs (Aug 9-13, 2017)
-       - `structured-1502548557-A10D2B1C-1377-11D3-2AD6-0CFE454272F2.json` - hardware failure during CWL Champs 2017 resulted in partial data loss for this game.  The failure occured with Envyus leading 4-0, resulting in all events from the first 4 rounds to be lost.  Basic stats (`kills`, `deaths`, `firstblood`, `defuses`, ...) were recovered manually via video replay.
- * 2018
-    * CWL Dallas (Dec 8-10, 2017)
-       - `structured-1512852903-3e527faf-aba5-58a5-a92d-d17144eee655.json` - a forfeit by Rise Nation in game 1 of their CWL Dallas pool play matchup against Red Reserve due to use of a prohibited scorestreak, but this data **IS** included for completeness.
-    * CWL New Orleans (Jan 12-14, 2018)
-       - 280 of 280 *elite* games have data, added new `ctf_flag_carry_time_s` stat
+See [Missing Data](../../data#missing-data)...in _most_ cases, basic stats are manually recovered using video replay.
