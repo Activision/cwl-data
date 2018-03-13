@@ -12,6 +12,7 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
     * CWL Dallas - Dallas, TX - Dec 8-10, 2017 - [data-2017-12-10-dallas.csv](data-2017-12-10-dallas.csv)
     * CWL New Orleans - New Orleans, LA - Jan 12-14, 2018 - [data-2018-01-14-neworleans.csv](data-2018-01-14-neworleans.csv)
     * CWL Pro League, Stage 1 - Columbus, OH - Jan 23-Apr 8, 2018 - [data-2018-04-08-proleague1.csv](data-2018-04-08-proleague1.csv)
+    * CWL Atlanta - Atlanta, GA - Mar 9-11, 2018 - [data-2018-03-11-atlanta.csv](data-2018-03-11-atlanta.csv)
 
 ## Structured Data
 
@@ -121,10 +122,13 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
  * 2018
     * CWL Dallas (Dec 8-10, 2017)
        - 269 of 269 *elite* games have data (all pool play, plus both champ brackets)
-       - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data IS included.
+       - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data **IS** included.
     * CWL New Orleans (Jan 12-14, 2018)
        - 280 of 280 *elite* games have data
     * CWL Pro League, Stage 1 (Jan 23-Apr 8, 2018)
        - only weeks 1-6 so far
-       - week 4 - data server failure on Thurs, Feb 15 caused the loss of the last two games from Splyce versus Evil Geniuses
-       - week 6 - data server failure on Wed, Feb 28 caused the loss of CTF from Echo Fox versus Red Reserve
+       - week 4 - lost the last two games from Splyce vs Evil Geniuses on Thurs, Feb 15
+       - week 6 - lost the CTF game from Echo Fox vs Red Reserve on Wed, Feb 28
+    * CWL Atlanta (Mar 9-11, 2018)
+       - day 1 - lost the CTF game from Evil Geniuses vs Vitality on Fri, Mar 9
+       - day 2 - lost 5 games due to data server crash
