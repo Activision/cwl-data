@@ -13,6 +13,7 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
     * CWL New Orleans - New Orleans, LA - Jan 12-14, 2018 - [data-2018-01-14-neworleans.csv](data-2018-01-14-neworleans.csv)
     * CWL Pro League, Stage 1 - Columbus, OH - Jan 23-Apr 8, 2018 - [data-2018-04-08-proleague1.csv](data-2018-04-08-proleague1.csv)
     * CWL Atlanta - Atlanta, GA - Mar 9-11, 2018 - [data-2018-03-11-atlanta.csv](data-2018-03-11-atlanta.csv)
+    * CWL Birmingham - Birmingham, UK - Mar 30-Apr 1, 2018 - [data-2018-04-01-birmingham.csv](data-2018-04-01-birmingham.csv)
 
 ## Structured Data
 
@@ -132,3 +133,5 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
     * CWL Atlanta (Mar 9-11, 2018)
        - day 1 - lost the CTF game from Evil Geniuses vs Vitality on Fri, Mar 9
        - day 2 - lost 5 games due to data server crash
+    * CWL Birmingham (Mar 30-Apr 1, 2018)
+       - massive data loss (lost ~80 games, only captured 164 games), dataset is *NOT* filled out yet
