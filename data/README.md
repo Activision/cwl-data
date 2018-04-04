@@ -134,4 +134,4 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - day 1 - lost the CTF game from Evil Geniuses vs Vitality on Fri, Mar 9
        - day 2 - lost 5 games due to data server crash
     * CWL Birmingham (Mar 30-Apr 1, 2018)
-       - massive data loss (lost ~80 games, only captured 164 games), dataset is *NOT* filled out yet (see #11 if you want to help)
+       - massive data loss (lost ~80 games, only captured 164 games), dataset is *NOT* filled out yet (see [#11](/user/project/issues/11) if you want to help)
