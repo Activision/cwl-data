@@ -127,9 +127,8 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
     * CWL New Orleans (Jan 12-14, 2018)
        - 280 of 280 *elite* games have data
     * CWL Pro League, Stage 1 (Jan 23-Apr 8, 2018)
-       - only weeks 1-6 so far
-       - week 4 - lost the last two games from Splyce vs Evil Geniuses on Thurs, Feb 15
-       - week 6 - lost the CTF game from Echo Fox vs Red Reserve on Wed, Feb 28
+       - 503 of 504 games captured, including playoffs
+       - week 6 - the only lost game was CTF from Echo Fox vs Red Reserve on Wed, Feb 28
     * CWL Atlanta (Mar 9-11, 2018)
        - day 1 - lost the CTF game from Evil Geniuses vs Vitality on Fri, Mar 9
        - day 2 - lost 5 games due to data server crash
