@@ -134,3 +134,8 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - day 2 - lost 5 games due to data server crash
     * CWL Birmingham (Mar 30-Apr 1, 2018)
        - massive data loss (lost ~80 games, only captured 164 games), dataset is *NOT* filled out yet (see [#11](/user/project/issues/11) if you want to help)
+    * CWL Pro League, Relegation (Apr 19, 2018)
+       - lost CTF game 3 from Epsilon vs Vitality on Thurs, Apr 19
+    * CWL Seattle (Apr 20-22, 2018)
+       - day 1 - lost HP game 1 from Echo Fox vs Rise Nation
+       - day 2 - lost both HP game 4 and SND game 5 from Unilad vs Ghost Gaming
