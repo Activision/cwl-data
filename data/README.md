@@ -14,8 +14,9 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
     * CWL Pro League, Stage 1 - Columbus, OH - Jan 23-Apr 8, 2018 - [data-2018-04-08-proleague1.csv](data-2018-04-08-proleague1.csv)
     * CWL Atlanta - Atlanta, GA - Mar 9-11, 2018 - [data-2018-03-11-atlanta.csv](data-2018-03-11-atlanta.csv)
     * CWL Birmingham - Birmingham, UK - Mar 30-Apr 1, 2018 - [data-2018-04-01-birmingham.csv](data-2018-04-01-birmingham.csv)
-    * CWL Pro League, Relegation - Seattle, WA - Apr 19, 2018 - [data-2018-04-19-relegation.csv](data-2018-03-11-atlanta.csv)
+    * CWL Pro League, Relegation - Seattle, WA - Apr 19, 2018 - [data-2018-04-19-relegation.csv](data-2018-04-19-relegation.csv)
     * CWL Seattle - Seattle, WA - Apr 20-22, 2018 - [data-2018-04-22-seattle.csv](data-2018-04-22-seattle.csv)
+    * CWL Pro League, Stage 2 - Columbus, OH - May 15-July 29, 2018 - [data-2018-07-29-proleague2.csv](data-2018-07-29-proleague2.csv)
 
 ## Structured Data
 

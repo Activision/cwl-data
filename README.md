@@ -16,6 +16,7 @@ Data from the following tournaments is available (see [Data](data)):
     * CWL Birmingham - Mar 30-Apr 1, 2018
     * CWL Pro League, Relegation - Apr 19, 2018
     * CWL Seattle - Apr 20-22, 2018
+    * CWL Pro League, Stage 2 - May 15-July 29, 2018
 
 
 ## How do we get it? Where does it come from?
