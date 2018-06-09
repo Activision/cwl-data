@@ -142,3 +142,5 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
     * CWL Seattle (Apr 20-22, 2018)
        - day 1 - lost HP game 1 from Echo Fox vs Rise Nation
        - day 2 - lost both HP game 4 and SND game 5 from Unilad vs Ghost Gaming
+    * CWL Pro League, Stage 2 (May 15-July 29, 2018)
+       - week 4 - only first HP game of the week eUnited v Unilad
