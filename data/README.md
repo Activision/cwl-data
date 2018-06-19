@@ -17,6 +17,7 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
     * CWL Pro League, Relegation - Seattle, WA - Apr 19, 2018 - [data-2018-04-19-relegation.csv](data-2018-04-19-relegation.csv)
     * CWL Seattle - Seattle, WA - Apr 20-22, 2018 - [data-2018-04-22-seattle.csv](data-2018-04-22-seattle.csv)
     * CWL Pro League, Stage 2 - Columbus, OH - May 15-July 29, 2018 - [data-2018-07-29-proleague2.csv](data-2018-07-29-proleague2.csv)
+    * CWL Anaheim - Anaheim, CA - Jun 15-17, 2018 - [data-2018-06-17-anaheim.csv](data-2018-06-17-anaheim.csv)
 
 ## Structured Data
 
@@ -126,7 +127,7 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
  * 2018
     * CWL Dallas (Dec 8-10, 2017)
        - 269 of 269 *elite* games have data (all pool play, plus both champ brackets)
-       - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data **IS** included.
+       - use of a prohibited scorestreak resulted in a forfeit by Rise Nation of game 1 against Red Reserve in pool play, but that data **IS** included
     * CWL New Orleans (Jan 12-14, 2018)
        - 280 of 280 *elite* games have data
     * CWL Pro League, Stage 1 (Jan 23-Apr 8, 2018)
@@ -144,3 +145,7 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - day 2 - lost both HP game 4 and SND game 5 from Unilad vs Ghost Gaming
     * CWL Pro League, Stage 2 (May 15-July 29, 2018)
        - week 4 - only first HP game of the week eUnited v Unilad
+    * CWL Anaheim (Jun 15-17)
+       - day 1 - quitting while a game was in progress resulted in a forfeit by Complexity in game 3 against Optic in pool play, but that data **IS** included
+       - day 3 - lost SND game 5 from Faze vs Mindfreak
+       - day 3 - game 4 HP from Rise Nation vs Red Reserve was a *tie*, but that data **IS** included
