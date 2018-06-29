@@ -49,11 +49,11 @@ Here are a few example structured data files:
        * `score2` - (only for `roundend`) the score at the end of the round for team 2
        * `id` - (for `spawn` and `death`) the player
        * `life` - (for `spawn` and `death`) the unique spawn index
-       * `pos` - (for `spawn` and `death`) the player's location in x,y,z (in game units)
+       * `pos` - (for `spawn` and `death`) the player's location in x,y (in game units)
        * `attacker` - (only for `death`)
           * `id` - the attacker
           * `life` - the attacker's unique spawn index
-          * `pos` - the attacker's location in x,y,z (in game units)
+          * `pos` - the attacker's location in x,y (in game units)
           * `weapon` - the attacker's primary weapon
           * `kill_distance` - the distance of the kill (in game units)
           * `means_of_death` - the kind of kill
