@@ -38,7 +38,7 @@ Here are a few example structured data files:
     * `round_scores` - the list of team score in each round (or hill rotation if `hp`)
     * `side` - the side (`home` or `away`)
  * `players` - the list of players
-    * see [Data](../../data#the-stats)...player stats are identical to the tabular stats, _mostly_
+    * see [Data](/Activision/cwl-data/tree/master/data#the-stats)...player stats are identical to the tabular stats, _mostly_
  * `events` - the list of events
     * `type` - the type of event (`roundstart`, `roundend`, `spawn`, `death`)
     * `time_ms` - the relative time from match start of this event (somewhat confusingly games don't always _begin_ exactly at match start)
@@ -49,16 +49,16 @@ Here are a few example structured data files:
        * `score2` - (only for `roundend`) the score at the end of the round for team 2
        * `id` - (for `spawn` and `death`) the player
        * `life` - (for `spawn` and `death`) the unique spawn index
-       * `pos` - (for `spawn` and `death`) the player's location in x,y (in game units)
+       * `pos` - (for `spawn` and `death`) the player's location in x,y (in pixels)
        * `attacker` - (only for `death`)
           * `id` - the attacker
           * `life` - the attacker's unique spawn index
-          * `pos` - the attacker's location in x,y (in game units)
+          * `pos` - the attacker's location in x,y (in pixels)
           * `weapon` - the attacker's primary weapon
-          * `kill_distance` - the distance of the kill (in game units)
+          * `kill_distance` - the distance of the kill (in pixels)
           * `means_of_death` - the kind of kill
 
 
 ## Missing Data
 
-See [Missing Data](../../data#missing-data)...in _most_ cases, basic stats are manually recovered using video replay.
+See [Missing Data](/Activision/cwl-data/tree/master/data#missing-data)...in _most_ cases, basic stats are manually recovered using video replay.
