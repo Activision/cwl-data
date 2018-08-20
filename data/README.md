@@ -18,6 +18,7 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
     * CWL Seattle - Seattle, WA - Apr 20-22, 2018 - [data-2018-04-22-seattle.csv](data-2018-04-22-seattle.csv)
     * CWL Pro League, Stage 2 - Columbus, OH - May 15-July 29, 2018 - [data-2018-07-29-proleague2.csv](data-2018-07-29-proleague2.csv)
     * CWL Anaheim - Anaheim, CA - Jun 15-17, 2018 - [data-2018-06-17-anaheim.csv](data-2018-06-17-anaheim.csv)
+    * CWL Champs - Columbus, OH - Aug 15-19, 2018 - [data-2018-08-19-champs.csv](data-2018-08-19-champs.csv)
 
 ## Structured Data
 
