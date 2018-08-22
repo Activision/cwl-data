@@ -146,7 +146,10 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - day 2 - lost both HP game 4 and SND game 5 from Unilad vs Ghost Gaming
     * CWL Pro League, Stage 2 (May 15-July 29, 2018)
        - week 4 - only first HP game of the week eUnited v Unilad
-    * CWL Anaheim (Jun 15-17)
+    * CWL Anaheim (Jun 15-17, 2018)
        - day 1 - quitting while a game was in progress resulted in a forfeit by Complexity in game 3 against Optic in pool play, but that data **IS** included
        - day 3 - lost SND game 5 from Faze vs Mindfreak
        - day 3 - game 4 HP from Rise Nation vs Red Reserve was a *tie*, but that data **IS** included
+    * CWL Champs (Aug 15-19, 2018)
+       - 295 of 296 games have complete data
+       - lost very last pool play game of Day 2, the game 4 HP from Echo Fox vs Team Vitality

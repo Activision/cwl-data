@@ -3,18 +3,18 @@
 Structured data is provided as nested json per game.  Most importantly, the data contains individual intra-game events such as spawns and deaths.
 
 
-## Examples
+## Samples
 
-Here are a few example structured data files:
+Here are a few sample structured data files:
 
  * 2017 - CWL Champs 2017, Optic Gaming vs Team Envyus, Grand Finals:
-    * `hp` - [structured-1502655504-A23F8504-146F-11D3-6C6E-0CFE454272F2.json](structured-1502655504-A23F8504-146F-11D3-6C6E-0CFE454272F2.json)
-    * `snd` - [structured-1502656269-A850EC88-1471-11D3-6C6E-0CFE454272F2.json](structured-1502656269-A850EC88-1471-11D3-6C6E-0CFE454272F2.json)
-    * `upl` - [structured-1502657302-F28A9CF2-1473-11D3-6C6E-0CFE454272F2.json](structured-1502657302-F28A9CF2-1473-11D3-6C6E-0CFE454272F2.json)
+    * `hp` - [structured-1502655504-A23F8504-146F-11D3-6C6E-0CFE454272F2.json](https://github.com/Activision/cwl-data/blob/master/data/structured/samples/structured-1502655504-A23F8504-146F-11D3-6C6E-0CFE454272F2.json)
+    * `snd` - [structured-1502656269-A850EC88-1471-11D3-6C6E-0CFE454272F2.json](https://github.com/Activision/cwl-data/blob/master/data/structured/samples/structured-1502656269-A850EC88-1471-11D3-6C6E-0CFE454272F2.json)
+    * `upl` - [structured-1502657302-F28A9CF2-1473-11D3-6C6E-0CFE454272F2.json](https://github.com/Activision/cwl-data/blob/master/data/structured/samples/structured-1502657302-F28A9CF2-1473-11D3-6C6E-0CFE454272F2.json)
  * 2018 - CWL Dallas 2018, Optic Gaming vs Team Kaliber, Finals:
-    * `hp` - [structured-1512958291-be650c82-3e4c-5013-a325-b872e52d6347.json](structured-1512958291-be650c82-3e4c-5013-a325-b872e52d6347.json)
-    * `snd` - [structured-1512959445-5dbb69ba-3fa7-5bce-8266-8cbf46f1dabd.json](structured-1512959445-5dbb69ba-3fa7-5bce-8266-8cbf46f1dabd.json)
-    * `ctf` - [structured-1512960410-f77faded-71d4-5b9a-ab0d-1ea3ea546ee2.json](structured-1512960410-f77faded-71d4-5b9a-ab0d-1ea3ea546ee2.json)
+    * `hp` - [structured-1512958291-be650c82-3e4c-5013-a325-b872e52d6347.json](https://github.com/Activision/cwl-data/blob/master/data/structured/samples/structured-1512958291-be650c82-3e4c-5013-a325-b872e52d6347.json)
+    * `snd` - [structured-1512959445-5dbb69ba-3fa7-5bce-8266-8cbf46f1dabd.json](https://github.com/Activision/cwl-data/blob/master/data/structured/samples/structured-1512959445-5dbb69ba-3fa7-5bce-8266-8cbf46f1dabd.json)
+    * `ctf` - [structured-1512960410-f77faded-71d4-5b9a-ab0d-1ea3ea546ee2.json](https://github.com/Activision/cwl-data/blob/master/data/structured/samples/structured-1512960410-f77faded-71d4-5b9a-ab0d-1ea3ea546ee2.json)
 
 
 ## The Stats
@@ -38,8 +38,8 @@ Here are a few example structured data files:
     * `round_scores` - the list of team score in each round (or hill rotation if `hp`)
     * `side` - the side (`home` or `away`)
  * `players` - the list of players
-    * see [Data](/Activision/cwl-data/tree/master/data#the-stats)...player stats are identical to the tabular stats, _mostly_
- * `events` - the list of events
+    * see [The Stats](https://github.com/Activision/cwl-data/tree/master/data#the-stats)...player stats are identical to the tabular stats, _mostly_
+ * `events` - the list of intra-game events
     * `type` - the type of event (`roundstart`, `roundend`, `spawn`, `death`)
     * `time_ms` - the relative time from match start of this event (somewhat confusingly games don't always _begin_ exactly at match start)
     * `round` - the round of this event,
@@ -61,4 +61,4 @@ Here are a few example structured data files:
 
 ## Missing Data
 
-See [Missing Data](/Activision/cwl-data/tree/master/data#missing-data)...in _most_ cases, basic stats are manually recovered using video replay.
+See [Missing Data](https://github.com/Activision/cwl-data/tree/master/data#missing-data)...in _most_ cases, basic stats are manually recovered using video replay, but *all* intra-game events are lost.
