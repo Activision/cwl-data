@@ -16,9 +16,13 @@ Data from the following tournaments is available (see [Data](data)):
     * CWL Birmingham - Mar 30-Apr 1, 2018
     * CWL Pro League, Relegation - Apr 19, 2018
     * CWL Seattle - Apr 20-22, 2018
-    * CWL Pro League, Stage 2 - May 15-July 29, 2018
+    * CWL Pro League, Stage 2 - May 15-Jul 29, 2018
     * CWL Anaheim - Jun 15-17, 2018
     * CWL Champs - Aug 15-19, 2018
+ * 2019
+    * CWL Pro Leauge Qualifiers - Jan 16-20, 2019
+    * CWL Pro League - Feb 4-Jul 5, 2019
+    * _(coming soon)_ CWL Fort Worth - Mar 15-17, 2019
 
 
 ## How do we get it? Where does it come from?

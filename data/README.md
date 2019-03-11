@@ -19,6 +19,10 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
     * CWL Pro League, Stage 2 - Columbus, OH - May 15-July 29, 2018 - [data-2018-07-29-proleague2.csv](data-2018-07-29-proleague2.csv)
     * CWL Anaheim - Anaheim, CA - Jun 15-17, 2018 - [data-2018-06-17-anaheim.csv](data-2018-06-17-anaheim.csv)
     * CWL Champs - Columbus, OH - Aug 15-19, 2018 - [data-2018-08-19-champs.csv](data-2018-08-19-champs.csv)
+ * 2019
+    * CWL Pro League Qualifer - Columbus, OH - Jan 16-20, 2019 - [data-2019-01-20-proleague-qual.csv](data-2019-01-20-proleague-qual.csv)
+    * CWL Pro League - Columbus, OH - Feb 4-Jul 5, 2019 - [data-2019-07-05-proleague.csv](data-2019-07-05-proleague.csv)
+    * _(coming soon)_ CWL Fort Worth - Fort Worth, TX - Mar 15-17, 2019
 
 ## Structured Data
 
@@ -33,7 +37,7 @@ Some definitions:
  * __Aggregate Stats__ - basic stats summed over a certain period of time (series, tournament, season) then normalized per game to allow player vs player comparisons, such as `season k/d`, `kills per game`, `plants per round`, `points per game`, ...
  * __Advanced Stats__ (aka Sabermetrics) - complex derived stats that *best* describe player performance and/or enable *better* player vs player comparisons, such as `QBR` from football (american), `WAR` and `OPS+` from baseball, `PER` in basketball, ...
 
-For Call of Duty, everything from basic stats to advanced stats is under active investigation.  What stats are best when comparing players, when comparing teams?  What stats best predict future performance?  What stats can be used to succinctly capture the story of the games, the series, the pool, or the tournament?
+For Call of Duty, everything from basic stats to advanced stats is under active investigation.  What stats are best when comparing players? When stats are best when comparing teams?  What stats best predict future performance?  What stats can be used to succinctly capture the story of the games, the series, the pool, or the tournament?
 
 ## The Stats
 
@@ -55,6 +59,9 @@ The basic and derived stats found in the data (aka the columns in the tabular da
  * `k/d` - kill-death ratio (derived, `kills` divided by `deaths`)
  * `kills per 10min` - kills per 10 minutes (derived)
  * `deaths per 10min` - deaths per 10 minutes (derived)
+ * `player score` - the player's score in the game (BO4)
+ * `player spm` - the player's score per minute (derived) (BO4)
+ * `ekia` - ekia *for the player* (BO4)
  * `assists` - assists
  * `headshots` - kills via headshot
  * `suicides` - kills from the environment (aka falling off the map)
@@ -153,3 +160,8 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
     * CWL Champs (Aug 15-19, 2018)
        - 295 of 296 games have complete data
        - lost very last pool play game of Day 2, the game 4 HP from Echo Fox vs Team Vitality
+ * 2019
+    * CWL Pro League Qualifier (Jan 16-20, 2019)
+       - significant data loss as BO4 data system was deployed and debugged
+    * CWL Pro League (Feb 5-Jul 5, 2019)
+       - 221 of 226 games captured for Week 1 - Week 4
