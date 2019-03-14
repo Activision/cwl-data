@@ -162,6 +162,6 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - lost very last pool play game of Day 2, the game 4 HP from Echo Fox vs Team Vitality
  * 2019
     * CWL Pro League Qualifier (Jan 16-20, 2019)
-       - significant data loss as BO4 data system was deployed and debugged
+       - 317 of ~400 games captured - LAN data system was in beta and significant data loss occurred
     * CWL Pro League (Feb 5-Jul 5, 2019)
        - 221 of 226 games captured for Week 1 - Week 4

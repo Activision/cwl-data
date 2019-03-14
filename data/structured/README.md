@@ -33,7 +33,7 @@ Here are a few sample structured data files:
  * `hp_hill_rotations` - (only for `hp`) the number of hill rotations
  * `teams` - the list of teams
     * `name` - the team name
-    * `score` - the score
+    * `score` - the team score
     * `is_victor` - is this team the winner? (`true` if they won, otherwise `false`)
     * `round_scores` - the list of team score in each round (or hill rotation if `hp`)
     * `side` - the side (`home` or `away`)
