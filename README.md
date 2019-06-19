@@ -22,12 +22,17 @@ Data from the following tournaments is available (see [Data](data)):
  * 2019
     * CWL Pro Leauge Qualifiers - Jan 16-20, 2019
     * CWL Pro League - Feb 4-Jul 5, 2019
-    * _(coming soon)_ CWL Fort Worth - Mar 15-17, 2019
+    * CWL Fort Worth - Mar 15-17, 2019
+    * CWL London - May 3-5, 2019
+    * CWL Anaheim - Jun 14-16, 2019
+    * _(coming soon)_ CWL Pro League Finals - Jul 19-21, 2019
+    * _(coming soon)_ CWL Champs - Aug 14-18, 2019
+
 
 
 ## How do we get it? Where does it come from?
 
-Data is captured live during Call of Duty World League tournaments directly from the game host console.  It is cleaned, validated for correctness, and processed into a useable format.  Exports in both [tabular](data#tabular-data) and [structured](data#structured-data) format are published here.
+Data is captured live during Call of Duty World League tournaments directly from the various game host consoles on the LAN.  It is cleaned, validated for correctness, and processed into a useable format.  Exports in both [tabular](data#tabular-data) and [structured](data#structured-data) formats are published here.
 
 
 ## Collaboration
