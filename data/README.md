@@ -24,9 +24,9 @@ Tabular data is simply per-player per-game stats for every game in the tournamen
     * CWL Pro League - Columbus, OH - Feb 4-Jul 5, 2019 - [data-2019-07-05-proleague.csv](data-2019-07-05-proleague.csv)
     * CWL Fort Worth - Fort Worth, TX - Mar 15-17, 2019 - [data-2019-03-17-fortworth.csv](data-2019-03-17-fortworth.csv)
     * CWL London - London, UK - May 3-5, 2019 - [data-2019-05-05-london.csv](data-2019-05-05-london.csv)
-    * _(coming soon)_ CWL Anaheim - Anaheim, CA - Jun 14-16, 2019
-    * _(coming soon)_ CWL Pro League Final - Miami, FL - Jul 19-21, 2019
-    * _(coming soon)_ CWL Champs
+    * CWL Anaheim - Anaheim, CA - Jun 14-16, 2019 - [data-2019-06-16-anaheim.csv](data-2019-06-16-anaheim.csv)
+    * _(coming soon)_ CWL Pro League Finals - Miami, FL - Jul 19-21, 2019
+    * _(coming soon)_ CWL Champs - Los Angeles, CA - Aug 14-18, 2019
 
 ## Structured Data
 
@@ -175,3 +175,5 @@ Note: not all stats are present in all seasons or tournaments of Call of Duty Wo
        - minimal data loss
     * CWL London (May 3-5, 2019)
        - lost first few series on Friday due to power issues
+    * CWL Anaheim (Jun 14-16, 2019)
+       - yeah! zero data loss
