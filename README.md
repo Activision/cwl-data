@@ -25,8 +25,8 @@ Data from the following tournaments is available (see [Data](data)):
     * CWL Fort Worth - Mar 15-17, 2019
     * CWL London - May 3-5, 2019
     * CWL Anaheim - Jun 14-16, 2019
-    * _(coming soon)_ CWL Pro League Finals - Jul 19-21, 2019
-    * _(coming soon)_ CWL Champs - Aug 14-18, 2019
+    * CWL Pro League Finals - Jul 19-21, 2019
+    * CWL Champs - Aug 14-18, 2019
 
 
 
