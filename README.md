@@ -1,6 +1,6 @@
 # Call of Duty World League Data
 
-This is the public release of data from the Call of Duty World League.  The very first release is complete game data from the 2017 Call of Duty World League Championships played in Orlando, FL from Aug 9 - Aug 13, 2017.
+This is the public release of data from the Call of Duty World League.  The very first release is complete game data from the 2017 Call of Duty World League Championships played in Orlando, FL from Aug 9 - Aug 13, 2017.  The _last_ release is complete game data from the 2019 Call of Duty World League Championships played in Los Angeles, CA from Aug 14 - Aug 18, 2019.
 
 ## The Data
 
@@ -27,7 +27,6 @@ Data from the following tournaments is available (see [Data](data)):
     * CWL Anaheim - Jun 14-16, 2019
     * CWL Pro League Finals - Jul 19-21, 2019
     * CWL Champs - Aug 14-18, 2019
-
 
 
 ## How do we get it? Where does it come from?
