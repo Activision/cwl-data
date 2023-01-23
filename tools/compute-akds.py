@@ -117,24 +117,23 @@ def calculate_team_akds(teams):
 if __name__ == '__main__':
     rows = load_csv('../data/data-2017-08-13-champs.csv')
 
-    print('Summing kills...')
+    # Summing kills
     (mult_snd, mult_3rd) = calculate_kill_multipliers(rows)
 
-    print('Adjusting player stats...')
+    # Adjusting player stats
     players = compute_player_adjusted_kills_deaths(rows, mult_snd, mult_3rd)
 
-    print('Aggregating adjusted team stats..')
+    # Aggregating adjusted team stats
     teams = aggregate_teams_adjusted_kills_deaths(players)
 
-    print('Calculating player adjusted K/Ds...')
+    # Calculating player adjusted K/Ds
     player_akds = calculate_player_akds(players)
     player_akds = sorted(player_akds.items(), key=itemgetter(1), reverse=True)
 
-    print('Calculating team adjusted K/Ds...')
+    # Calculating team adjusted K/Ds
     team_akds = calculate_team_akds(teams)
     team_akds = sorted(team_akds.items(), key=itemgetter(1), reverse=True)
 
-    print()
     print("Top Five Player aKDs:")
     for player in player_akds[:5]:
         print(player[0] + ":", player[1])
@@ -143,6 +142,5 @@ if __name__ == '__main__':
     print("Top Five Team aKDs:")
     for team in team_akds[:5]:
         print(team[0] + ":", team[1])
-    # print()
-    # print(player_akds)
-    # print(team_akds)
+
+    
