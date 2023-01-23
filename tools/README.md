@@ -33,7 +33,38 @@ Records:
   ..
 ```
 
-## Compute Aggregates
+## Compute aKDs
+
+Compute player and team adjusted KD ratios for a tournament. Calculates distribution of kills among game modes to scale kills accordingly (so that all kills and deaths are weighted the same as hardpoint).
+
+### Usage
+
+Run it (requires Python >= 3.5):
+
+```
+> cd tools
+> python compute-akds.py
+```
+
+Output:
+
+```
+Top Five Player aKDs:
+Formal: 1.432572353531342
+Royalty: 1.3824400446785874
+Slasher: 1.3005779985634798
+GodRx: 1.2278585144664893
+MadCat: 1.224991705045359
+
+Top Five Team aKDs:
+OpTic Gaming: 1.1389218885255363
+Team EnVyUs: 1.1246955169371367
+Enigma6: 1.1086851486467633
+Rise Nation: 1.0725500703543411
+eUnited: 1.066649241243551
+```
+ 
+ ## Compute Aggregates
 
 Compute player and team aggregate stats for a tournament.  Outputs aggregates as csv files.
 
